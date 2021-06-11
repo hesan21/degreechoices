@@ -10,6 +10,9 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
         crossorigin="anonymous">
 
+    <!-- Bootstrap Tables -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+
     <!-- Animate On Scroll Styles -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -228,15 +231,261 @@
                             <span>Overall Score</span>
                         </div>
                     </div>
+
+                    <div class="data-table">
+                        <table id="table"
+                        >
+                            <thead>
+                                <tr>
+                                    <th data-sortable="true" data-field="college">College</th>
+                                    <th data-sortable="true" data-field="region">Region</th>
+                                    <th data-sortable="true" data-field="diversity">Diversity</th>
+                                    <th data-sortable="true" data-field="inclusivity">Inclusivity</th>
+                                    <th data-sortable="true" data-field="sustainability">Sustainability</th>
+                                    <th data-sortable="true" data-field="freedom">Freedom</th>
+                                    <th data-sortable="true" data-field="health">Health</th>
+                                    <th data-sortable="true" data-field="overall">Overall</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous"></script> -->
+
     <!-- Bootstrap Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
             crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap Table Scripts -->
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+
+    <script>
+        const methodologyData = [
+            {
+                "college" : "University of Texas at Austin" ,
+                "region" : "south",
+                "diversity" : 41.19,
+                "inclusivity" : 15.44,
+                "sustainability" : 64.80,
+                "freedom" : 70.67,
+                "health" : 80.09,
+                "overall" : 68.74
+            },
+
+            {
+                "college" : "NYU" ,
+                "region" : "northeast",
+                "diversity" : 56.64,
+                "inclusivity" : 18.89,
+                "sustainability" : 66.86,
+                "freedom" : 13.85,
+                "health" : 30.11,
+                "overall" : 52.69
+            },
+
+            {
+                "college" : "University of California, Davis" ,
+                "region" : "west",
+                "diversity" : 44.69,
+                "inclusivity" : 23.49,
+                "sustainability" : 77.14,
+                "freedom" : 49.36,
+                "health" : 93.15,
+                "overall" : 75.47
+            },
+
+            {
+                "college" : "University of Washington",
+                "region" : "midwest",
+                "diversity" : 38.40 ,
+                "inclusivity" : 47.62,
+                "sustainability" : 68.59,
+                "freedom" : 63.57,
+                "health" : 70.74,
+                "overall" : 68.24
+            },
+
+            {
+                "college" : "University of California, San Diego",
+                "region" : "west",
+                "diversity" : 37.65,
+                "inclusivity" : 49.46,
+                "sustainability" : 68.98,
+                "freedom" : 28.62,
+                "health" : 48.45,
+                "overall" : 57.96
+            },
+
+            {
+                "college" : "University of Rochester",
+                "region" : "northeast",
+                "diversity" : 33.39,
+                "inclusivity" : 50.99,
+                "sustainability" : 52.59,
+                "freedom" : 18.18,
+                "health" : 75.61,
+                "overall" : 58.35
+            },
+
+            {
+                "college" : "University of California, Los Angeles",
+                "region" : "west",
+                "diversity" : 51.47,
+                "inclusivity" : 52.48,
+                "sustainability" : 65.83,
+                "freedom" : 63.57,
+                "health" : 72.07,
+                "overall" : 73.63
+            },
+
+            {
+                "college" : "University of California, Berkeley",
+                "region" : "west",
+                "diversity" : 52.74,
+                "inclusivity" : 52.60,
+                "sustainability" : 83.43,
+                "freedom" : 77.77,
+                "health" : 66.87,
+                "overall" : 81.15
+            },
+            
+            {
+                "college" : "University of Southern California",
+                "region" : "west",
+                "diversity" : 49.57,
+                "inclusivity" : 54.78,
+                "sustainability" : 65.00,
+                "freedom" : 63.57,
+                "health" : 64.69,
+                "overall" : 75.23
+            },
+
+            {
+                "college" : "Boston University",
+                "region" : "northeast",
+                "diversity" : 32.85,
+                "inclusivity" : 57.28 ,
+                "sustainability" : 53.56,
+                "freedom" : 26.70,
+                "health" : 63.72,
+                "overall" : 58.99
+            },
+
+            {
+                "college" : "Carnegie Mellon University",
+                "region" : "midwest",
+                "diversity" : 42.52,
+                "inclusivity" : 59.21,
+                "sustainability" : 69.38,
+                "freedom" : 21.52,
+                "health" : 92.95,
+                "overall" : 71.85
+            },
+
+            {
+                "college" : "University of Notre Dame",
+                "region" : "midwest",
+                "diversity" : 10.81,
+                "inclusivity" : 60.25,
+                "sustainability" : 61.94,
+                "freedom" : 28.84,
+                "health" : 71.75,
+                "overall" : 57.95
+            },
+
+            {
+                "college" : "Emory University",
+                "region" : "south",
+                "diversity" : 37.46,
+                "inclusivity" : 61.22,
+                "sustainability" : 71.43,
+                "freedom" : 26.63,
+                "health" : 90.61,
+                "overall" : 72.26
+            },
+
+            {
+                "college" : "University of Michigan",
+                "region" : "midwest",
+                "diversity" : 28.54,
+                "inclusivity" : 63.87,
+                "sustainability" : 67.97,
+                "freedom" : 100.00,
+                "health" : 0.00,
+                "overall" : 62.99
+            },
+
+            {
+                "college" : "Dartmouth College",
+                "region" : "northeast",
+                "diversity" : 15.44,
+                "inclusivity" : 67.49,
+                "sustainability" : 60.00,
+                "freedom" : 3.91,
+                "health" : 82.79,
+                "overall" : 58.94
+            },
+
+            {
+                "college" : "Columbia University",
+                "region" : "northeast",
+                "diversity" : 51.21,
+                "inclusivity" : 71.51,
+                "sustainability" : 64.46,
+                "freedom" : 28.05,
+                "health" : 89.04,
+                "overall" : 76.95
+            },
+
+            {
+                "college" : "Wellesley College",
+                "region" : "northeast",
+                "diversity" : 46.43,
+                "inclusivity" : 75.09,
+                "sustainability" : 65.41,
+                "freedom" : 8.81,
+                "health" : 100.00,
+                "overall" : 76.35
+            },
+
+            {
+                "college" : "CalTech",
+                "region" : "west",
+                "diversity" : 58.59,
+                "inclusivity" : 75.20,
+                "sustainability" : 65.00,
+                "freedom" : 0.00,
+                "health" : 96.49, 
+                "overall" : 75.97
+            },
+
+            // {
+            //     "college" : "",
+            //     "region" : "",
+            //     "diversity" : ,
+            //     "inclusivity" : ,
+            //     "sustainability" : ,
+            //     "freedom" : ,
+            //     "health" : ,
+            //     "overall" : 
+            // },
+        ]
+        
+        $(function () {
+            $('#table').bootstrapTable({
+                data: methodologyData
+            });
+        });
     </script>
 
     <!-- AOS Scripts -->
