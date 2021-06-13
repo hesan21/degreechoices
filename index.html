@@ -163,7 +163,14 @@
             </div>
         </div>
 
-        <div id="methodology-text" class="container">
+        <div id="methodology-text" class="container"
+                    data-aos="fade-up"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom">
             These metrics were supplemented by scores relating to health and wellbeing. Data was collected 
             from primary and secondary sources, including university policy pages and external organizations 
             such as STARS, IV Stats, and College Factual. 
@@ -173,84 +180,551 @@
             rating based on its scores across all categories. 
         </div>
 
-        <div class="my-5" id="methodology-table-container">
+        <div class="mt-5 pb-3" id="methodology-table-container">
             <div class="d-flex justify-content-center align-items-center flex-column">
                 <div class="ribbon-container p-0 m-0">
                     <img src="./assets/bg-ribbon.png" class="my-4 ribbon-img" alt="">
                     <h1 class="ribbon-text">Scores</h1> 
                 </div>
 
-                <div class="icons-container text-center">
+                <div class="icons-container text-center"
+                    data-aos="fade-right"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom">
                     <h2 class="mt-3">Key</h2>
 
-                    <div class="row w-100 my-5">
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                    <div class="row justify-content-center my-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/star-icon.png" class="icon-img" alt="">
                             <span>Rank</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/college-icon.png" class="icon-img" alt="">
                             <span>College</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/region-icon.png" class="icon-img" alt="">
                             <span>Region</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/diversity-icon.png" class="icon-img" alt="">
                             <span>Diversity</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center">
                             <img src="./assets/icons/inclusivity-icon.png" class="icon-img" alt="">
                             <span>Inclusivity</span>
                         </div>
                     </div>
 
-                    <div class="row my-5">
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                    <div class="row my-5 justify-content-center">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/sustainability-icon.png" class="icon-img" alt="">
                             <span>Sustainability</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/freedom-icon.png" class="icon-img" alt="">
                             <span>Freedom of Speech</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/health-icon.png" class="icon-img" alt="">
                             <span>Health and Wellbeing</span>
                         </div>
 
-                        <div class="icon col d-flex flex-column justify-content-center align-items-center me-5">
+                        <div class="icon col-4 col-md-1 d-flex flex-column justify-content-center align-items-center me-5">
                             <img src="./assets/icons/overall-icon.png" class="icon-img" alt="">
                             <span>Overall Score</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="data-table mt-5">
-                    <table id="table"
+                <div class="myTableContainer"
+                    data-aos="fade-left"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
                     >
-                        <thead>
+                    <div class="data-table myDataTable mt-5">
+                        <table id="table" class="text-center"
+                        >
+                            <thead>
                             <tr>
-                                <th data-sortable="true" data-field="college">College</th>
-                                <th data-sortable="true" data-field="region">Region</th>
-                                <th data-sortable="true" data-field="diversity">Diversity</th>
-                                <th data-sortable="true" data-field="inclusivity">Inclusivity</th>
-                                <th data-sortable="true" data-field="sustainability">Sustainability</th>
-                                <th data-sortable="true" data-field="freedom">Freedom</th>
-                                <th data-sortable="true" data-field="health">Health</th>
-                                <th data-sortable="true" data-field="overall">Overall</th>
+                                <th data-sortable="true" data-field="id">
+                                    <img src="./assets/icons/star-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="college">
+                                    <img src="./assets/icons/college-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="region">
+                                    <img src="./assets/icons/region-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="diversity">
+                                    <img src="./assets/icons/diversity-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="inclusivity">
+                                    <img src="./assets/icons/inclusivity-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="sustainability">
+                                    <img src="./assets/icons/sustainability-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="freedom">
+                                    <img src="./assets/icons/freedom-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="health">
+                                    <img src="./assets/icons/health-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
+                                <th data-sortable="true" data-field="overall">
+                                    <img src="./assets/icons/overall-icon.png" class="img-thumbnail"
+                                         style="background: transparent; ;border: none" alt="">
+                                </th>
                             </tr>
-                        </thead>
-                    </table>
+                            </thead>
+                        </table>
+                    </div>
+
                 </div>
             </div>
+        </div>
+
+        <div id="methodolgy-footer-text" class=" p-5">
+            <h1 
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-bottom">
+                Why Progressivism <br>
+                Important in Education?
+            </h1>
+
+            <p 
+                data-aos="fade-up"
+                data-aos-offset="0"
+                data-aos-delay="700"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-bottom"
+                >
+                Academic environments are not only designed to be bastions of education but safe spaces where people of all
+                types can flourish. According to industry body Pearson, the original raison d’être for universities was to be
+                guardians of “reason, inquiry, and philosophical openness.” This ethos has since been combined with a more
+                modern purpose, namely the facilitation of social mobility.
+
+                Universities are not only places to exchange and examine ideas but allow people from all backgrounds
+                to change their lives. A degree is an investment that students believe will pay dividends in the future.
+                This is why progressivism is integral to everything a university does. Only by focusing on issues such
+                as diversity, inclusivity, sustainability, and freedom of speech can an institution hope to uphold its
+                core values. Our study has ranked universities across the US based on a variety of metrics.
+
+                No single rating can be taken as a definitive conclusion on how progressive an institution is.
+                Moreover, each category considers a variety of points. Therefore, it may be the case that an
+                institution thrives in one area but not another. However, what we hope to achieve with this study is
+                an overview of progressivism in academia. Moreover, our findings can be used to determine the universities
+                that best embrace the ideals of social justice, change, and self-improvement, thus fulfilling the
+                true raison d’être of higher education.
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Top 5-->
+    <section id="top5">
+        <div id="top5-banner">
+            <img src="./assets/top5-bg.png" id="top5-bg-img" >
+
+            <div id="top5-bg-overlay"></div>
+
+            <div id="top5-text-overlay">
+                <h1 class="intro-heading"
+                    data-aos="fade-up"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >Overall Progressiveness Score</h1>
+                <p class="intro-subheading"
+                    data-aos="fade-down"
+                    data-aos-offset="0"
+                    data-aos-delay="700"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    Methodology: Scores across all categories were measured to give an overall rating. Diversity,
+                    inclusivity, and sustainability scores were given 50% more weighting than other categories because
+                    we feel they have a greater overall impact on progressiveness.
+                </p>
+            </div>
+        </div>
+
+        <div class="overview-container d-flex justify-content-around align-items-center"
+                data-aos="fade-left"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-bottom"
+                >
+            <div class="graph-container top-score text-center">
+                <h3>Top Scoring College:</h3>
+                <canvas id="top5-top-scoring" width="300" height="300"></canvas>
+                <h3>University</h3>
+            </div>
+            <div class="graph-container low-score text-center">
+                <h3>Lowest Scoring College:</h3>
+                <canvas id="top5-lowest-scoring" width="300" height="300"></canvas>
+                <h3>University</h3>
+            </div>
+        </div>
+
+        <div class="top5-container mt-2 mb-5">
+            <div class="ribbon-container p-0 m-0 mb-5 d-flex justify-content-center">
+                <img src="./assets/bg-ribbon.png" class="my-4 mx-auto ribbon-img" alt="">
+                <h1 class="ribbon-text">Top 5</h1>
+            </div>
+
+            <div class="cards-container row m-0 p-0">
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                data-aos="zoom-in"
+                data-aos-offset="0"
+                data-aos-delay="0"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">1</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/standford.png" alt="">
+                        </div>
+                        <div class="name">Stanford University</div>
+                        <div class="score">91.26</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-in"
+                    data-aos-offset="0"
+                    data-aos-delay="400"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">2</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/cornell.png" alt="">
+                        </div>
+                        <div class="name">Cornell University</div>
+                        <div class="score">85.67</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-in"
+                    data-aos-offset="0"
+                    data-aos-delay="800"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">3</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/yale.png" alt="">
+                        </div>
+                        <div class="name">Yale University</div>
+                        <div class="score">84.20</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-in"
+                    data-aos-offset="0"
+                    data-aos-delay="1200"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">4</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/harvard.png" alt="">
+                        </div>
+                        <div class="name">Harvard University</div>
+                        <div class="score">82.24</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-in"
+                    data-aos-offset="0"
+                    data-aos-delay="1600"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">5</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/california.png" alt="">
+                        </div>
+                        <div class="name">University Of California, Berkeley</div>
+                        <div class="score">81.15</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom5-container mt-2 pb-5">
+            <div class="ribbon-container p-0 m-0 mb-5 d-flex justify-content-center">
+                <img src="./assets/bg-ribbon2.png" class="my-4 mx-auto ribbon-img" alt="">
+                <h1 class="ribbon-text">Bottom 5</h1>
+            </div>
+
+            <div class="cards-container row m-0 p-0"
+                    data-aos="zoom-out"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                    >
+                <div class="card mx-4 col-md-2 my-2 text-center">
+                    <div class="mycard-number">1</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/nyu.png" alt="">
+                        </div>
+                        <div class="name">NYU University</div>
+                        <div class="score">52.69</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-out"
+                    data-aos-offset="0"
+                    data-aos-delay="400"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">2</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/notre-dame.png" alt="">
+                        </div>
+                        <div class="name">University of Notre Dame</div>
+                        <div class="score">57.95</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                        data-aos="zoom-out"
+                        data-aos-offset="0"
+                        data-aos-delay="800"
+                        data-aos-duration="600"
+                        data-aos-easing="ease-in-out"
+                        data-aos-once="true"
+                        data-aos-anchor-placement="top-bottom"
+                    >
+                    <div class="mycard-number">3</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/sandiego.png" alt="">
+                        </div>
+                        <div class="name">University of California, San Diego</div>
+                        <div class="score">57.96</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-out"
+                    data-aos-offset="0"
+                    data-aos-delay="1200"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">4</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/rochester.png" alt="">
+                        </div>
+                        <div class="name">University of Rochester</div>
+                        <div class="score">58.35</div>
+                    </div>
+                </div>
+
+                <div class="card mx-4 col-md-2 my-2 text-center"
+                    data-aos="zoom-out"
+                    data-aos-offset="0"
+                    data-aos-delay="1600"
+                    data-aos-duration="600"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    <div class="mycard-number">5</div>
+
+                    <div class="card-body text-center">
+                        <div class="logo">
+                            <img src="./assets/universities/dartmouth.png" alt="">
+                        </div>
+                        <div class="name">Dartmouth College</div>
+                        <div class="score">58.94</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="findings text-center py-5">
+            <div class="container">
+                <h1
+                    data-aos="fade-up"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    Findings
+                </h1>
+
+                <p
+                    data-aos="fade-down"
+                    data-aos-offset="0"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                    Although it didn’t score highly with respect to freedom of speech and diversity, Stanford is strong
+                    in virtually all other areas. Despite having a fairly low acceptance rate of 4%, it still managed to
+                    score 89.20% for inclusivity due to robust system of grants and scholarships. It’s also the top US
+                    university for sustainability and it offers a safe learning environment. Indeed, our tests show that
+                    it has a 90.25% score for health and wellbeing thanks to personalized coaching and counselling services.
+
+                    Students can book sessions with support specialists from a variety of backgrounds, ethnicities,
+                    and sexual orientations. The aim is to provide a personal, social, and clinical points of contact for
+                    all students, regardless of their background. Finally, Stanford has one of the lowest crime rates in
+                    the country. In 2019 there were just 268 reported crimes. At the lowest rated university, NYU, there
+                    were 1,761 reported crimes during the same period.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Number 1 -->
+    <section id="top1" class="text-center d-flex flex-column justify-content-center align-items-center">
+        <div class="ribbon-container p-0 m-0 mb-5 d-flex justify-content-center">
+            <img src="./assets/bg-ribbon.png" class="my-4 mx-auto ribbon-img" alt="">
+            <h1 class="ribbon-text">1</h1>
+        </div>
+
+        <h1 class="mb-5">Stanford University</h1>
+
+        <div class="logo mb-4">
+            <img src="./assets/universities/standford.png" alt="">
+        </div>
+
+        <div class="details d-flex justify-content-center align-items-center row m-0">
+<!--            <div class="row m-0">-->
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/region-icon.png" alt="">
+                        <h3>West</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/diversity-icon.png" alt="">
+                        <h3>45.08</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/inclusivity-icon.png" alt="">
+                        <h3>89.20</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/sustainability-icon.png" alt="">
+                        <h3>88.93</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/freedom-icon.png" alt="">
+                        <h3>39.35</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/health-icon.png" alt="">
+                        <h3>90.25</h3>
+                    </div>
+                </div>
+
+                <div class="card col-4 col-md-2 col-lg-1 overall mx-4">
+                    <div class="card-body">
+                        <img src="./assets/icons/overall-light-icon.png" alt="">
+                        <h3>91.26</h3>
+                    </div>
+                </div>
+<!--            </div>-->
         </div>
     </section>
 
@@ -269,9 +743,43 @@
     <!-- Bootstrap Table Scripts -->
     <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
 
+<!--    Commenting Data Read from excel sheet for now-->
+<!--    <script>-->
+<!--        var url = "/assets/excel/data.xlsx";-->
+<!--        var oReq = new XMLHttpRequest();-->
+<!--        oReq.open("GET", url, true);-->
+<!--        oReq.responseType = "arraybuffer";-->
+
+<!--        oReq.onload = function(e) {-->
+<!--            var arraybuffer = oReq.response;-->
+
+<!--            /* convert data to binary string */-->
+<!--            var data = new Uint8Array(arraybuffer);-->
+<!--            var arr = new Array();-->
+<!--            for (var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);-->
+<!--            var bstr = arr.join("");-->
+
+<!--            /* Call XLSX */-->
+<!--            var workbook = XLSX.read(bstr, {-->
+<!--                type: "binary"-->
+<!--            });-->
+
+<!--            /* DO SOMETHING WITH workbook HERE */-->
+<!--            var first_sheet_name = workbook.SheetNames[0];-->
+<!--            /* Get worksheet */-->
+<!--            var worksheet = workbook.Sheets[first_sheet_name];-->
+<!--                console.log(XLSX.utils.sheet_to_json(worksheet, {-->
+<!--                raw: true-->
+<!--            }));-->
+<!--        }-->
+
+<!--        oReq.send();-->
+<!--    </script>-->
+
     <script>
         const methodologyData = [
             {
+                "id" : 1,
                 "college" : "University of Texas at Austin" ,
                 "region" : "south",
                 "diversity" : 41.19,
@@ -283,6 +791,7 @@
             },
 
             {
+                "id" : 2,
                 "college" : "NYU" ,
                 "region" : "northeast",
                 "diversity" : 56.64,
@@ -294,6 +803,7 @@
             },
 
             {
+                "id" : 3,
                 "college" : "University of California, Davis" ,
                 "region" : "west",
                 "diversity" : 44.69,
@@ -305,6 +815,7 @@
             },
 
             {
+                "id" : 4,
                 "college" : "University of Washington",
                 "region" : "midwest",
                 "diversity" : 38.40 ,
@@ -316,6 +827,7 @@
             },
 
             {
+                "id" : 5,
                 "college" : "University of California, San Diego",
                 "region" : "west",
                 "diversity" : 37.65,
@@ -327,6 +839,7 @@
             },
 
             {
+                "id" : 6,
                 "college" : "University of Rochester",
                 "region" : "northeast",
                 "diversity" : 33.39,
@@ -338,6 +851,7 @@
             },
 
             {
+                "id" : 7,
                 "college" : "University of California, Los Angeles",
                 "region" : "west",
                 "diversity" : 51.47,
@@ -349,6 +863,7 @@
             },
 
             {
+                "id" : 8,
                 "college" : "University of California, Berkeley",
                 "region" : "west",
                 "diversity" : 52.74,
@@ -358,8 +873,9 @@
                 "health" : 66.87,
                 "overall" : 81.15
             },
-            
+
             {
+                "id" : 9,
                 "college" : "University of Southern California",
                 "region" : "west",
                 "diversity" : 49.57,
@@ -371,6 +887,7 @@
             },
 
             {
+                "id" : 10,
                 "college" : "Boston University",
                 "region" : "northeast",
                 "diversity" : 32.85,
@@ -380,107 +897,318 @@
                 "health" : 63.72,
                 "overall" : 58.99
             },
-
             {
+                "id" : 11,
                 "college" : "Carnegie Mellon University",
                 "region" : "midwest",
                 "diversity" : 42.52,
-                "inclusivity" : 59.21,
+                "inclusivity" : 59.21 ,
                 "sustainability" : 69.38,
                 "freedom" : 21.52,
                 "health" : 92.95,
                 "overall" : 71.85
             },
-
             {
+                "id" : 12,
                 "college" : "University of Notre Dame",
                 "region" : "midwest",
                 "diversity" : 10.81,
-                "inclusivity" : 60.25,
+                "inclusivity" : 60.25 ,
                 "sustainability" : 61.94,
                 "freedom" : 28.84,
-                "health" : 71.75,
+                "health": 71.75,
                 "overall" : 57.95
             },
-
             {
+                "id" : 13,
                 "college" : "Emory University",
                 "region" : "south",
                 "diversity" : 37.46,
-                "inclusivity" : 61.22,
+                "inclusivity" : 61.22 ,
                 "sustainability" : 71.43,
                 "freedom" : 26.63,
-                "health" : 90.61,
+                "health": 90.61,
                 "overall" : 72.26
             },
 
+
             {
+                "id" : 14,
                 "college" : "University of Michigan",
                 "region" : "midwest",
                 "diversity" : 28.54,
-                "inclusivity" : 63.87,
+                "inclusivity" : 63.87 ,
                 "sustainability" : 67.97,
                 "freedom" : 100.00,
-                "health" : 0.00,
+                "health": 0.00,
                 "overall" : 62.99
             },
-
             {
+                "id" : 15,
                 "college" : "Dartmouth College",
-                "region" : "northeast",
+                "region" : "northest",
                 "diversity" : 15.44,
-                "inclusivity" : 67.49,
+                "inclusivity" : 67.49 ,
                 "sustainability" : 60.00,
                 "freedom" : 3.91,
-                "health" : 82.79,
+                "health": 82.79,
                 "overall" : 58.94
             },
-
             {
+                "id" : 16,
                 "college" : "Columbia University",
-                "region" : "northeast",
+                "region" : "northest",
                 "diversity" : 51.21,
-                "inclusivity" : 71.51,
+                "inclusivity" : 71.51 ,
                 "sustainability" : 64.46,
                 "freedom" : 28.05,
-                "health" : 89.04,
+                "health": 89.04,
                 "overall" : 76.95
             },
-
             {
+                "id" : 17,
                 "college" : "Wellesley College",
-                "region" : "northeast",
+                "region" : "northest",
                 "diversity" : 46.43,
-                "inclusivity" : 75.09,
+                "inclusivity" : 75.09 ,
                 "sustainability" : 65.41,
                 "freedom" : 8.81,
-                "health" : 100.00,
+                "health": 100.0,
                 "overall" : 76.35
             },
-
             {
-                "college" : "CalTech",
+                "id" : 18,
+                "college" : "CelTech",
                 "region" : "west",
                 "diversity" : 58.59,
-                "inclusivity" : 75.20,
+                "inclusivity" : 75.20 ,
                 "sustainability" : 65.00,
                 "freedom" : 0.00,
-                "health" : 96.49, 
-                "overall" : 75.97
+                "health": 96.49,
+                "overall" : 75.91
             },
-
-            // {
-            //     "college" : "",
-            //     "region" : "",
-            //     "diversity" : ,
-            //     "inclusivity" : ,
-            //     "sustainability" : ,
-            //     "freedom" : ,
-            //     "health" : ,
-            //     "overall" : 
-            // },
+            {
+                "id" : 19,
+                "college" : "Cornell University ",
+                "region" : "northest",
+                "diversity" : 35.91,
+                "inclusivity" : 75.83 ,
+                "sustainability" : 83.60,
+                "freedom" : 63.57,
+                "health": 83.15,
+                "overall" : 85.67
+            },
+            {
+                "id" : 20,
+                "college" : "Rice University",
+                "region" : "south",
+                "diversity" : 38.21,
+                "inclusivity" : 76.62 ,
+                "sustainability" : 69.75,
+                "freedom" : 20.45,
+                "health": 97.58,
+                "overall" : 75.77
+            },
+            {
+                "id" : 21,
+                "college" : "Georgetown University",
+                "region" : "northwest",
+                "diversity" : 35.16,
+                "inclusivity" : 76.69 ,
+                "sustainability" : 65.00,
+                "freedom" : 17.40,
+                "health": 83.80,
+                "overall" : 70.40
+            },
+            {
+                "id" : 22,
+                "college" : "Washington University in St Louis",
+                "region" : "midwest",
+                "diversity" : 30.12,
+                "inclusivity" : 76.75,
+                "sustainability" : 65.67,
+                "freedom" : 24.50,
+                "health": 80.21,
+                "overall" :69.97
+            },
+            {
+                "id" : 23,
+                "college" : "john Hopkins University",
+                "region" : "northwest",
+                "diversity" : 41.48,
+                "inclusivity" : 78.14 ,
+                "sustainability" : 60.00,
+                "freedom" : 20.95,
+                "health": 90.25,
+                "overall" : 73.15
+            },
+            {
+                "id" : 24,
+                "college" : "Vanderbilt University",
+                "region" : "midwest",
+                "diversity" : 22.05,
+                "inclusivity" : 79.12,
+                "sustainability" : 64.00,
+                "freedom" : 17.40,
+                "health": 80.85,
+                "overall" : 66.37
+            },
+            {
+                "id" : 25,
+                "college" : "University of Chicago",
+                "region" : "midwest",
+                "diversity" : 37.90,
+                "inclusivity" : 79.62,
+                "sustainability" : 60.00,
+                "freedom" : 22.37,
+                "health": 95.04,
+                "overall" : 73.83
+            },
+            {
+                "id" : 26,
+                "college" : "Swarthmore College",
+                "region" : "northeast",
+                "diversity" : 19.74,
+                "inclusivity" : 79.88 ,
+                "sustainability" : 61.32,
+                "freedom" : 4.69,
+                "health": 95.85,
+                "overall" : 66.27
+            },
+            {
+                "id" : 27,
+                "college" : "Upenn",
+                "region" : "northeast",
+                "diversity" : 45.66,
+                "inclusivity" : 80.00,
+                "sustainability" : 65.05,
+                "freedom" : 38.71,
+                "health": 74.93,
+                "overall" : 77.24
+            },
+            {
+                "id" : 28,
+                "college" : "MIT",
+                "region" : "northeast",
+                "diversity" : 33.32,
+                "inclusivity" : 80.67,
+                "sustainability" : 64.26,
+                "freedom" : 32.74,
+                "health": 93.95,
+                "overall" : 76.52
+            },
+            {
+                "id" : 29,
+                "college" : "Northwestern University ",
+                "region" : "midwest",
+                "diversity" : 36.20,
+                "inclusivity" : 80.69,
+                "sustainability" : 65.92,
+                "freedom" : 17.40,
+                "health": 84.97,
+                "overall" : 72.72
+            },
+            {
+                "id" : 30,
+                "college" : "Pomona College",
+                "region" : "west",
+                "diversity" : 35.50,
+                "inclusivity" : 80.89,
+                "sustainability" : 68.35,
+                "freedom" : 13.85,
+                "health": 92.54,
+                "overall" : 75.03
+            },
+            {
+                "id" : 31,
+                "college" : "Amherst College",
+                "region" : "northeast",
+                "diversity" : 17.77,
+                "inclusivity" : 83.15,
+                "sustainability" : 46.27,
+                "freedom" : 8.03,
+                "health": 97.22,
+                "overall" : 63.73
+            },
+            {
+                "id" : 32,
+                "college" : "Brown University ",
+                "region" : "northeast",
+                "diversity" : 30.31,
+                "inclusivity" : 86.20,
+                "sustainability" : 65.00,
+                "freedom" : 20.95,
+                "health" : 90.45,
+                "overall" : 74.81
+            },
+            {
+                "id" : 33,
+                "college" : "Harvard University",
+                "region" : "northeast",
+                "diversity" : 34.40,
+                "inclusivity" : 87.39,
+                "sustainability" : 73.00,
+                "freedom" : 36.36,
+                "health" : 91.37,
+                "overall" : 82.24
+            },
+            {
+                "id" : 34,
+                "college" : "Williams College",
+                "region" : "northeast",
+                "diversity" : 12.46,
+                "inclusivity" : 87.60,
+                "sustainability" : 50.98,
+                "freedom" : 4.05,
+                "health" : 90.21,
+                "overall" : 62.45
+            },
+            {
+                "id" : 35,
+                "college" : "Princeton University",
+                "region" : "northeast",
+                "diversity" : 40.78,
+                "inclusivity" : 88.67,
+                "sustainability" : 65.26,
+                "freedom" : 19.53,
+                "health" : 90.89,
+                "overall" : 78.95
+            },
+            {
+                "id" : 36,
+                "college" : "Stanford University ",
+                "region" : "west",
+                "diversity" : 45.08,
+                "inclusivity" : 89.20,
+                "sustainability" : 88.93,
+                "freedom" : 39.35,
+                "health" : 90.25,
+                "overall" : 91.26
+            },
+            {
+                "id" : 37,
+                "college" : "Yale University ",
+                "region" : "northeast",
+                "diversity" : 47.29,
+                "inclusivity" : 89.60,
+                "sustainability" : 64.57,
+                "freedom" : 32.88,
+                "health" : 92.99,
+                "overall" : 84.20
+            },
+            {
+                "id" : 38,
+                "college" : "Duke University ",
+                "region" : "south",
+                "diversity" : 35.87,
+                "inclusivity" : 96.05,
+                "sustainability" : 68.00,
+                "freedom" : 20.95,
+                "health" : 77.67,
+                "overall" : 79.11
+            }
         ]
-        
+
         $(function () {
             $('#table').bootstrapTable({
                 data: methodologyData
@@ -495,5 +1223,9 @@
         startEvent: 'load'
       });
     </script>
+
+    <!--    ChartJS scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script src="charts/doughut-charts.js"></script>
 </body>
 </html>

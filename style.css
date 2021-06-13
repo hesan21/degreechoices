@@ -13,7 +13,6 @@ html,body{
 }
 
 /* Intro Styling */
-
 #intro-bg-img{
     width: 100%;
 }
@@ -47,11 +46,11 @@ html,body{
 
 .intro-heading{
     font-family: 'Montserrat';
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     color: white;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .intro-subheading{
@@ -59,14 +58,14 @@ html,body{
     color: white;
     line-height: 2.2rem;
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.3vw;
     font-weight: 600;
 
 }
 
 /* Methodolgy Stylings */
 #methodolgy-header{
-    height: 25vh;
+    height: 30vh;
     background-color: #2C2738;
     color: white;
     display: flex;
@@ -77,7 +76,7 @@ html,body{
 
 #methodolgy-header h1{
     font-family: 'Montserrat';
-    font-size: 4rem;
+    font-size: 3.5vw;
 }
 
 #methodolgy-header p{
@@ -85,8 +84,9 @@ html,body{
     text-align: center;
     font-family: 'Work Sans';
     font-weight: 200;
-    font-size: 1.7rem;
+    font-size: 1.5vw;
 }
+
 #methodology-metrics{
     position: relative;
 }
@@ -114,7 +114,7 @@ html,body{
 }
 
 #methodology-metrics #overlay-icons .icons img{
-    width: 100%;
+    width: 75%;
     transition: transform 0.3s ;
 }
 
@@ -134,28 +134,28 @@ html,body{
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(1){
-    top: 20%;
+    top: 25%;
     left: 15%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(2){
-    top: 12%;
+    top: 15%;
     left: 37%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(3){
-    top: 18%;
+    top: 23%;
     left: 62%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(4){
-    top: 40%;
-    left: 83%;
+    top: 45%;
+    left: 80%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(5){
-    top: 65%;
-    left: 47%;
+    top: 60%;
+    left: 42%;
 }
 
 #methodology-text{
@@ -163,7 +163,7 @@ html,body{
     font-family: 'Work Sans';
     line-height: 1.3;
     font-weight: 200;
-    font-size: 2vw;
+    font-size: 1.7vw;
     text-align: center;
 }
 
@@ -171,13 +171,24 @@ html,body{
     background-color: #E5E9EB;
 }
 
+#table .img-thumbnail{
+    width: 2.5vw;
+    height: auto;
+}
+
 #methodology-table-container .ribbon-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#methodology-table-container .ribbon-container img{
+    width: 75%;
 }
 
 #methodology-table-container .ribbon-text{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 32%;
     color: white;
     font-family: 'Montserrat';
@@ -193,8 +204,280 @@ html,body{
     padding: 0 5vw;
 }
 
-#methodology-table-container .icons-container .icon-img{
-    height: 35px;
-    width: 28px;
-    margin-bottom: 2vh;
+#methodolgy-footer-text{
+    text-align: center;
+    background: #2C2738;
+    color: white;
+}
+
+#methodolgy-footer-text h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#methodolgy-footer-text p{
+    font-family: 'Work Sans';
+    font-size: 1.6vw;
+}
+
+/*Top 5 Stylings*/
+#top5-banner{
+    position: relative;
+}
+
+#top5-bg-img{
+    width: 100%;
+}
+
+#top5-bg-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#top5-text-overlay{
+    width: 75%;
+    position: absolute;
+    padding: 1vw;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#top5 .overview-container{
+    color: white;
+    background: rgb(44,39,56);
+    padding: 20px;
+}
+
+#top5 .overview-container .top-score h3:first-child{
+    color: rgba(245, 81, 81, 1);
+}
+
+#top5 .overview-container .low-score h3:first-child{
+    color: rgba(242, 172, 87, 1);
+}
+
+
+/*Top 5 Stylings*/
+.top5-container .ribbon-container{
+    position: relative;
+}
+
+.top5-container .ribbon-text{
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 4vw;
+}
+
+.top5-container .cards-container .card{
+    position: relative;
+    background: #E5E9EB;
+    border-radius: 15px;
+    height: 50vh;
+    cursor: pointer;
+    transition: 0.5s transform;
+}
+
+.top5-container .cards-container .card:hover{
+    transform: scale(1.05);
+}
+
+.top5-container .cards-container .card .mycard-number{
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: -3.5vh;
+    left: 35%;
+    padding: 13px 20px;
+    background-color: rgba(245, 81, 81, 1);
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.top5-container .cards-container .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top5-container .cards-container .card .card-body .logo{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top5-container .cards-container .card .card-body .logo img{
+    width: 75%;
+}
+
+.top5-container .cards-container .card .card-body .name{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    height: 20%;
+}
+
+.top5-container .cards-container .card .card-body .score{
+    color: rgba(245, 81, 81, 1);
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 2.7vw;
+}
+
+/*Bottom 5 Stylings*/
+.bottom5-container{
+    background: #E5E9EB;
+}
+
+.bottom5-container .ribbon-container{
+    position: relative;
+}
+
+.bottom5-container .ribbon-text{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 4vw;
+}
+
+.bottom5-container .cards-container .card{
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    height: 50vh;
+    cursor: pointer;
+    transition: 0.5s transform;
+}
+
+.bottom5-container .cards-container .card:hover{
+    transform: scale(1.05);
+}
+
+.bottom5-container .cards-container .card .mycard-number{
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: -3.5vh;
+    left: 40%;
+    padding: 10px 20px;
+    background-color: rgba(242, 172, 87, 1);
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.bottom5-container .cards-container .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom5-container .cards-container .card .card-body .logo{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom5-container .cards-container .card .card-body .logo img{
+    width: 75%;
+}
+
+.bottom5-container .cards-container .card .card-body .name{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    height: 20%;
+}
+
+.bottom5-container .cards-container .card .card-body .score{
+    color: rgba(242, 172, 87, 1);
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: 2.7vw;
+}
+
+#top5 .findings{
+    background: #2C2738;
+    color: white;
+}
+
+#top5 .findings h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#top5 .findings p{
+    font-family: 'Work Sans';
+    font-size: 1.5vw;
+}
+
+/*Top 1 University Stylings*/
+#top1 .ribbon-container{
+    position: relative;
+}
+
+#top1 .ribbon-text{
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 4vw;
+}
+
+#top1 .details{
+    background: #E5E9EB;
+    width: 100%;
+    height: 30vh;
+}
+
+#top1 .details .card{
+    border-radius: 20px;
+    height: 15vh;
+}
+
+#top1 .details .card:last-child{
+    background: rgba(245, 81, 81, 1);
+}
+
+#top1 .details .card .card-body h3{
+    margin-top: 1vh;
+    font-size: 1.2vw;
+}
+
+#top1 .details .card:last-child .card-body img{
+    height: 35%;
+}
+
+#top1 .details .card:last-child .card-body{
+    color: white;
 }
