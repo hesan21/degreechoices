@@ -822,3 +822,13 @@ html,body{
     text-transform: uppercase;
     height: 30%;
 }
+
+#methodology2 div{
+    color: white;
+    height: 70vh;
+}
+
+#methodology2 h1{
+    font-family: "Montserrat";
+    font-size: 4rem;
+}
