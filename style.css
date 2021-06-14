@@ -180,6 +180,7 @@ html,body{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #methodology-table-container .ribbon-container img{
@@ -188,11 +189,15 @@ html,body{
 
 #methodology-table-container .ribbon-text{
     position: absolute;
-    top: 15%;
-    left: 32%;
+    width: 100%;
+    top: 13%;
+    left: 0;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 4rem;
 }
 
 #methodology-table-container .icons-container{
@@ -296,15 +301,22 @@ html,body{
 /*Top 5 Stylings*/
 .top5-container .ribbon-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top5-container .ribbon-text{
     position: absolute;
+    width: 100%;
     top: 18%;
-    left: 45%;
-    color: white;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 4rem;
+    color: white;
 }
 
 .top5-container .cards-container .card{
@@ -371,15 +383,22 @@ html,body{
 
 .bottom5-container .ribbon-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom5-container .ribbon-text{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     top: 20%;
-    left: 40%;
+    left: 0;
     color: white;
     font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 4rem;
 }
 
 .bottom5-container .cards-container .card{
@@ -457,15 +476,22 @@ html,body{
 /*Top 1 University Stylings*/
 #top1 .ribbon-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #top1 .ribbon-text{
     position: absolute;
-    top: 20%;
-    left: 49%;
+    width: 100%;
+    top: 18%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 4rem;
 }
 
 #top1 .details{
@@ -499,6 +525,7 @@ html,body{
 .findings{
     background: #E5E9EB;
     color: black;
+    padding: 10px 0 !important;
 }
 
 .findings h1{
@@ -695,6 +722,22 @@ html,body{
 
 .regions{
     position: relative;
+}
+
+#regional .larger {
+    animation: zoom-in-zoom-out 2s ease-in-out infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 .west, .midwest, .south, .northeast{
