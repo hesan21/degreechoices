@@ -265,19 +265,31 @@ html,body{
 }
 
 #top5 .overview-container,
-#diversity .overview-container{
+#diversity .overview-container,
+#inclusivity .overview-container,
+#sustainability .overview-container,
+#freedom .overview-container,
+#health .overview-container{
     color: white;
     background: rgb(44,39,56);
     padding: 20px;
 }
 
 #top5 .overview-container .top-score h3:first-child,
-#diversity .overview-container .top-score h3:first-child{
+#diversity .overview-container .top-score h3:first-child,
+#inclusivity .overview-container .top-score h3:first-child,
+#sustainability .overview-container .top-score h3:first-child,
+#freedom .overview-container .top-score h3:first-child ,
+#health .overview-container .top-score h3:first-child{
     color: rgba(245, 81, 81, 1);
 }
 
 #top5 .overview-container .low-score h3:first-child,
-#diversity .overview-container .low-score h3:first-child{
+#diversity .overview-container .low-score h3:first-child,
+#inclusivity .overview-container .low-score h3:first-child,
+#sustainability .overview-container .top-score h3:first-child,
+#freedom .overview-container .top-score h3:first-child,
+#health .overview-container .top-score h3:first-child{
     color: rgba(242, 172, 87, 1);
 }
 
@@ -530,6 +542,225 @@ html,body{
 
 #diversity #top5-text-overlay img{
     width: 15%;
+}
+
+/*Inclusivity Section Stylings*/
+
+#inclusivity #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#inclusivity #top5-bg-overlay{
+    background: #F55151;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#inclusivity #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#inclusivity #top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#inclusivity #top5-text-overlay img{
+    width: 15%;
+}
+
+/*Sustainability Section Stylings*/
+
+#sustainability #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#sustainability #top5-bg-overlay{
+    background: #237E85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#sustainability #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#sustainability #top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#sustainability #top5-text-overlay img{
+    width: 15%;
+}
+
+/*Freedom Section Stylings*/
+
+#freedom #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#freedom #top5-bg-overlay{
+    background: #F2AC57;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#freedom #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#freedom #top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#freedom #top5-text-overlay img{
+    width: 15%;
+}
+
+/*Health Section Stylings*/
+
+#health #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#health #top5-bg-overlay{
+    background: #584FA0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#health #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#health #top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#health #top5-text-overlay img{
+    width: 15%;
+}
+
+
+/*Regional Section Stylings*/
+
+#regional #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#regional #top5-bg-overlay{
+    background: #F58351;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#regional #top5-text-overlay img{
+    width: 15%;
+}
+
+.regions{
+    position: relative;
+}
+
+
+.west, .midwest, .south, .northeast{
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    background: #F58351;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.west p, .midwest p, .south p, .northeast p{
+    margin-bottom: 0;
+}
+.west p:first-child, .midwest p:first-child, .south p:first-child, .northeast p:first-child{
+    font-family: 'Montserrat';
+    font-size: 1.4vw;
+}
+
+.west p:last-child, .midwest p:last-child, .south p:last-child, .northeast p:last-child{
+    font-family: 'Work Sans';
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.west{
+    width: 150px;
+    height: 150px;
+    top: 35%;
+    left: 12%;
+}
+
+.midwest{
+    width: 130px;
+    height: 130px;
+    top: 20%;
+    left: 42%;
+}
+
+.south{
+    width: 130px;
+    height: 130px;
+    top: 50%;
+    left: 42%;
+}
+
+.northeast{
+    width: 200px;
+    height: 200px;
+    top: 25%;
+    right:17%;
+}
+
+.region-button{
+    cursor: pointer;
+    transition: 0.5s transform ease-in-out;
+}
+
+.region-button.active{
+    transform: scale(1.2);
+}
+
+.region-button:hover{
+    transform: scale(1.2);
 }
 
 .top5-container .cards-container .card .card-body .logo img{

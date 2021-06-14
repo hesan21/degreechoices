@@ -87,6 +87,34 @@
     .findings p{
         font-size: 2vw;
     }
+
+    .west{
+        width: 100px;
+        height: 100px;
+        top: 35%;
+        left: 12%;
+    }
+
+    .midwest{
+        width: 80px;
+        height: 80px;
+        top: 20%;
+        left: 42%;
+    }
+
+    .south{
+        width: 80px;
+        height: 80px;
+        top: 50%;
+        left: 42%;
+    }
+
+    .northeast{
+        width: 120px;
+        height: 120px;
+        top: 25%;
+        right:17%;
+    }
 }
 
 /* small to medium */
@@ -250,6 +278,14 @@
         font-size: 2.5vw;
     }
 
+    .findings h1{
+        font-size: 3.5vw;
+    }
+
+    .findings p{
+        font-size: 2.5vw;
+    }
+
     #diversity #top5-text-overlay h1{
         font-size: 5vw;
     }
@@ -259,12 +295,75 @@
         line-height: 1.7;
     }
 
-    .findings h1{
-        font-size: 3.5vw;
+    #inclusivity #top5-text-overlay h1{
+        font-size: 5vw;
     }
 
-    .findings p{
-        font-size: 2.5vw;
+    #inclusivity #top5-text-overlay p{
+        font-size: 2.7vw;
+        line-height: 1.7;
+    }
+
+    #sustainability #top5-text-overlay h1{
+        font-size: 5vw;
+    }
+
+    #sustainability #top5-text-overlay p{
+        font-size: 2.7vw;
+        line-height: 1.7;
+    }
+
+    #freedom #top5-text-overlay h1{
+        font-size: 5vw;
+    }
+
+    #freedom #top5-text-overlay p{
+        font-size: 2.7vw;
+        line-height: 1.7;
+    }
+
+    #health #top5-text-overlay h1{
+        font-size: 5vw;
+    }
+
+    #health #top5-text-overlay p{
+        font-size: 2.7vw;
+        line-height: 1.7;
+    }
+    .west{
+        width: 80px;
+        height: 80px;
+        top: 35%;
+        left: 12%;
+    }
+
+    .midwest{
+        width: 70px;
+        height: 70px;
+        top: 20%;
+        left: 42%;
+    }
+
+    .south{
+        width: 70px;
+        height: 70px;
+        top: 50%;
+        left: 42%;
+    }
+
+    .northeast{
+        width: 100px;
+        height: 100px;
+        top: 25%;
+        right:17%;
+    }
+
+    .west p:first-child, .midwest p:first-child, .south p:first-child, .northeast p:first-child{
+        font-size: 2vw;
+    }
+
+    .west p:last-child, .midwest p:last-child, .south p:last-child, .northeast p:last-child{
+        font-size: 2vw;
     }
 }
 
@@ -445,6 +544,13 @@
     #top1 .details .card .card-body h3{
         font-size: 3.5vw;
     }
+    .findings h1{
+        font-size: 5vw;
+    }
+
+    .findings p{
+        font-size: 3.5vw;
+    }
 
     #diversity #top5-text-overlay h1{
         font-size: 8vw;
@@ -458,12 +564,52 @@
         width: 20%;
     }
 
-    .findings h1{
-        font-size: 5vw;
+    #inclusivity #top5-text-overlay h1{
+        font-size: 8vw;
     }
 
-    .findings p{
-        font-size: 3.5vw;
+    #inclusivity #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #inclusivity #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #sustainability #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #sustainability #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #sustainability #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #freedom #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #freedom #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #freedom #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #health #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #health #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #health #top5-text-overlay img{
+        width: 20%;
     }
 
 }
