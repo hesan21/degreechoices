@@ -571,9 +571,10 @@
         font-size: 5vw;
     }
 
-    .findings p{
-        font-size: 0.6rem;
+    .findings  p{
+        font-size: 1rem;
     }
+    
 
     #diversity #top5-text-overlay h1{
         font-size: 8vw;
