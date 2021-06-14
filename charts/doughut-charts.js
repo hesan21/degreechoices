@@ -19,7 +19,7 @@ let top5_top = new Chart(ctx, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -58,11 +58,11 @@ let top5_lowest = new Chart(ctx2, {
                 '#999',
             ],
             borderColor: [
-                'rgba(245, 81, 81, 1)',
+                'rgba(242, 172, 87, 1)',
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius:5
+            borderRadius:0
         }]
     },
     options: {
@@ -112,7 +112,7 @@ new Chart(ctx3, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -155,7 +155,7 @@ new Chart(ctx4, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -205,7 +205,7 @@ new Chart(ctx5, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -248,7 +248,7 @@ new Chart(ctx6, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -298,7 +298,7 @@ new Chart(ctx7, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -341,7 +341,7 @@ new Chart(ctx8, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -391,7 +391,7 @@ new Chart(ctx9, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -434,7 +434,7 @@ new Chart(ctx10, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -484,7 +484,7 @@ new Chart(ctx11, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {
@@ -527,7 +527,7 @@ new Chart(ctx12, {
                 '#999',
             ],
             borderWidth: 1,
-            borderRadius: 5
+            borderRadius: 0
         }]
     },
     options: {

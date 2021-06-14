@@ -1,7 +1,7 @@
 /* Intro Heading Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 /* Intro SubHeading Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
 
 html,body{
     margin: 0;
@@ -106,7 +106,6 @@ html,body{
 
 #methodology-metrics #overlay-icons .icons{
     position: absolute;
-    width: 12%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +161,7 @@ html,body{
     margin-top: 5vh ;
     font-family: 'Work Sans';
     line-height: 1.3;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1.7vw;
     text-align: center;
 }
@@ -201,12 +200,25 @@ html,body{
 }
 
 #methodology-table-container .icons-container{
+    padding: 0 5vw;
+    height: 30vh;
+}
+
+#methodology-table-container .icons-container .icon .img-container{
+    width: 50px;
+    height: 50px;
+}
+#methodology-table-container .icons-container .icon img{
+    width: 100%;
+    height: 100%;
+}
+
+#methodology-table-container .icons-container .icon span{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    padding: 0 5vw;
+    font-size: 1rem;
+    height: 10vh;
 }
 
 #methodolgy-footer-text{
@@ -803,6 +815,22 @@ html,body{
 
 .region-button:hover{
     transform: scale(1.2);
+}
+
+#regional #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#regional #top5-text-overlay p{
+    margin-top: 5vh;
+    font-family: 'Work Sans';
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+#regional #top5-text-overlay img{
+    width: 13%;
 }
 
 .top5-container .cards-container .card .card-body .logo img{

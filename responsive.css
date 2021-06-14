@@ -341,6 +341,17 @@
         line-height: 1.7;
     }
 
+    #regional #top5-text-overlay h1{
+        font-size: 3rem;
+    }
+
+    #regional #top5-text-overlay p{
+        margin-top: 5vh;
+        font-family: 'Work Sans';
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
     .west{
         width: 80px;
         height: 80px;
