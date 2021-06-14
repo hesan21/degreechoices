@@ -84,7 +84,7 @@ html,body{
     text-align: center;
     font-family: 'Work Sans';
     font-weight: 200;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 #methodology-metrics{
@@ -222,7 +222,7 @@ html,body{
 
 #methodolgy-footer-text p{
     font-family: 'Work Sans';
-    font-size: 1.6vw;
+    font-size: 1.3vw;
 }
 
 /*Top 5 Stylings*/
@@ -263,7 +263,7 @@ html,body{
 }
 
 #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -470,7 +470,7 @@ html,body{
 
 #top5 .findings p{
     font-family: 'Work Sans';
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 /*Top 1 University Stylings*/
@@ -536,7 +536,7 @@ html,body{
 
 .findings p{
     font-family: 'Work Sans';
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 /*Diversity Section Stylings*/
@@ -561,7 +561,7 @@ html,body{
 }
 
 #diversity #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -593,7 +593,7 @@ html,body{
 }
 
 #inclusivity #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -625,7 +625,7 @@ html,body{
 }
 
 #sustainability #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -657,7 +657,7 @@ html,body{
 }
 
 #freedom #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -689,7 +689,7 @@ html,body{
 }
 
 #health #top5-text-overlay p{
-    margin-top: 10vh;
+    margin-top: 3vh;
     font-family: 'Work Sans';
     font-size: 1.7vw;
     font-weight: 600;
@@ -830,5 +830,5 @@ html,body{
 
 #methodology2 h1{
     font-family: "Montserrat";
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
