@@ -264,20 +264,22 @@ html,body{
     font-weight: 600;
 }
 
-#top5 .overview-container{
+#top5 .overview-container,
+#diversity .overview-container{
     color: white;
     background: rgb(44,39,56);
     padding: 20px;
 }
 
-#top5 .overview-container .top-score h3:first-child{
+#top5 .overview-container .top-score h3:first-child,
+#diversity .overview-container .top-score h3:first-child{
     color: rgba(245, 81, 81, 1);
 }
 
-#top5 .overview-container .low-score h3:first-child{
+#top5 .overview-container .low-score h3:first-child,
+#diversity .overview-container .low-score h3:first-child{
     color: rgba(242, 172, 87, 1);
 }
-
 
 /*Top 5 Stylings*/
 .top5-container .ribbon-container{
@@ -299,20 +301,20 @@ html,body{
     border-radius: 15px;
     height: 50vh;
     cursor: pointer;
-    transition: 0.5s transform;
+    transition: 0.5s transform !important;
 }
 
 .top5-container .cards-container .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
 }
 
 .top5-container .cards-container .card .mycard-number{
     color: white;
     position: absolute;
     border-radius: 50%;
-    top: -3.5vh;
-    left: 35%;
-    padding: 13px 20px;
+    top: -2.5vh;
+    left: 38%;
+    padding: 10px 20px;
     background-color: rgba(245, 81, 81, 1);
     font-size: 1.7vw;
     font-weight: bolder;
@@ -374,11 +376,11 @@ html,body{
     border-radius: 15px;
     height: 50vh;
     cursor: pointer;
-    transition: 0.5s transform;
+    transition: 0.5s transform !important;
 }
 
 .bottom5-container .cards-container .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
 }
 
 .bottom5-container .cards-container .card .mycard-number{
@@ -480,4 +482,70 @@ html,body{
 
 #top1 .details .card:last-child .card-body{
     color: white;
+}
+
+.findings{
+    background: #E5E9EB;
+    color: black;
+}
+
+.findings h1{
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+    font-size: 3.5vw;
+}
+
+.findings p{
+    font-family: 'Work Sans';
+    font-size: 1.5vw;
+}
+
+/*Diversity Section Stylings*/
+
+#diversity #top5-banner{
+    position: relative;
+    height: 75vh;
+}
+
+#diversity #top5-bg-overlay{
+    background: #4F66A0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#diversity #top5-text-overlay h1{
+    font-family: 'Montserrat';
+    font-size: 3.5vw;
+}
+
+#diversity #top5-text-overlay p{
+    margin-top: 10vh;
+    font-family: 'Work Sans';
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+#diversity #top5-text-overlay img{
+    width: 15%;
+}
+
+.top5-container .cards-container .card .card-body .logo img{
+    width: 65%;
+}
+
+.top5-container .cards-container .card .card-body .name{
+    text-transform: uppercase;
+    height: 30%;
+}
+
+.bottom5-container .cards-container .card .card-body .logo img{
+    width: 65%;
+}
+
+.bottom5-container .cards-container .card .card-body .name{
+    text-transform: uppercase;
+    height: 30%;
 }

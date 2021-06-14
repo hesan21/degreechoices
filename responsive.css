@@ -44,6 +44,10 @@
         font-family: 'Montserrat';
         font-size: 3rem;
     }
+    .top5-container .cards-container .card .mycard-number,
+    .bottom5-container .cards-container .card .mycard-number{
+        left: 35%;
+    }
 
     #top5-text-overlay h1{
         font-size: 3vw;
@@ -73,6 +77,14 @@
     }
 
     #top1 .details .card .card-body h3{
+        font-size: 2vw;
+    }
+
+    .findings h1{
+        font-size: 3.5vw;
+    }
+
+    .findings p{
         font-size: 2vw;
     }
 }
@@ -169,7 +181,8 @@
         font-size: 2.5vw;
     }
 
-    #top5 .overview-container{
+    #top5 .overview-container,
+    #diversity .overview-container{
         flex-direction: column;
     }
 
@@ -234,6 +247,23 @@
     }
 
     #top1 .details .card .card-body h3{
+        font-size: 2.5vw;
+    }
+
+    #diversity #top5-text-overlay h1{
+        font-size: 5vw;
+    }
+
+    #diversity #top5-text-overlay p{
+        font-size: 2.7vw;
+        line-height: 1.7;
+    }
+
+    .findings h1{
+        font-size: 3.5vw;
+    }
+
+    .findings p{
         font-size: 2.5vw;
     }
 }
@@ -331,7 +361,8 @@
         font-size: 3vw;
     }
 
-    #top5 .overview-container{
+    #top5 .overview-container,
+    #diversity .overview-container{
         flex-direction: column;
     }
 
@@ -358,7 +389,6 @@
         top: -2.5vh;
         left: 46%;
         font-size:4vw
-
     }
 
     .top5-container .cards-container .card .card-body .score{
@@ -413,6 +443,26 @@
     }
 
     #top1 .details .card .card-body h3{
+        font-size: 3.5vw;
+    }
+
+    #diversity #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #diversity #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #diversity #top5-text-overlay img{
+        width: 20%;
+    }
+
+    .findings h1{
+        font-size: 5vw;
+    }
+
+    .findings p{
         font-size: 3.5vw;
     }
 
