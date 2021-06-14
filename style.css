@@ -697,7 +697,6 @@ html,body{
     position: relative;
 }
 
-
 .west, .midwest, .south, .northeast{
     position: absolute;
     padding: 10px;

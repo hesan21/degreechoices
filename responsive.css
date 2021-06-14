@@ -210,7 +210,11 @@
     }
 
     #top5 .overview-container,
-    #diversity .overview-container{
+    #diversity .overview-container,
+    #inclusivity .overview-container,
+    #sustainability .overview-container,
+    #freedom .overview-container,
+    #health .overview-container{
         flex-direction: column;
     }
 
@@ -330,6 +334,7 @@
         font-size: 2.7vw;
         line-height: 1.7;
     }
+
     .west{
         width: 80px;
         height: 80px;
@@ -461,7 +466,11 @@
     }
 
     #top5 .overview-container,
-    #diversity .overview-container{
+    #diversity .overview-container,
+    #inclusivity .overview-container,
+    #sustainability .overview-container,
+    #freedom .overview-container,
+    #health .overview-container{
         flex-direction: column;
     }
 
@@ -612,4 +621,47 @@
         width: 20%;
     }
 
+    #regional #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #regional #top5-text-overlay img{
+        width: 25%;
+    }
+
+    .west{
+        width: 60px;
+        height: 60px;
+        top: 35%;
+        left: 12%;
+    }
+
+    .midwest{
+        width: 50px;
+        height: 50px;
+        top: 20%;
+        left: 42%;
+    }
+
+    .south{
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 42%;
+    }
+
+    .northeast{
+        width: 80px;
+        height: 80px;
+        top: 25%;
+        right:17%;
+    }
+
+    .west p:first-child, .midwest p:first-child, .south p:first-child, .northeast p:first-child{
+        font-size: 2vw;
+    }
+
+    .west p:last-child, .midwest p:last-child, .south p:last-child, .northeast p:last-child{
+        font-size: 2vw;
+    }
 }
