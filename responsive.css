@@ -48,6 +48,14 @@
         left: 35%;
     }
 
+    #methodology-table-container .icons-container{
+        height: auto;
+    }
+
+    #methodology-table-container .icons-container .icon {
+        margin: 0 10px !important;
+    }
+
     #top5-text-overlay h1{
         font-size: 3vw;
     }
@@ -182,6 +190,11 @@
         overflow: scroll;
 
     }
+
+    #methodology-table-container .icons-container{
+        height: auto;
+    }
+
     .myDataTable{
         width: 1000px;
     }
@@ -460,6 +473,11 @@
         overflow: scroll;
 
     }
+
+    #methodology-table-container .icons-container{
+        height: auto;
+    }
+
     .myDataTable{
         width: 1000px;
     }
