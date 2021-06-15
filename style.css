@@ -824,10 +824,10 @@ html,body{
 }
 
 #regional #top5-text-overlay p{
-    margin-top: 5vh;
+    margin-top: 2vh;
     font-family: 'Work Sans';
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.7vw;
+    font-weight: 600;
 }
 
 #regional #top5-text-overlay img{

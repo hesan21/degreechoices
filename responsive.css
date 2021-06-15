@@ -668,6 +668,10 @@
     #regional #top5-text-overlay h1{
         font-size: 8vw;
     }
+    #regional #top5-text-overlay p {
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
 
     .regions img{
         width: 90% !important;
