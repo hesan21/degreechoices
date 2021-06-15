@@ -210,7 +210,7 @@ html,body{
     height: 50px;
 }
 #methodology-table-container .icons-container .icon img{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -854,7 +854,6 @@ html,body{
 
 #methodology2 div{
     color: white;
-    height: 70vh;
 }
 
 #methodology2 h1{
@@ -864,4 +863,18 @@ html,body{
 
 #click-icon {
     font-size: 1.3rem;
+    position: absolute;
+    left: 3vw;
+    top: 8vh;
+    font-weight: 500;
+}
+
+.meth-div {
+    font-family: 'Work Sans'; font-size: 1.3vw;
+    text-align: left;
+}
+.meth-title {
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+    font-size: 3.5vw;
 }

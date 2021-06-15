@@ -1,7 +1,14 @@
 /* Medium to large */
 @media screen and (min-width: 767px) and (max-width: 1000px) {
     /* Introduction Section Styling */
-
+    #click-icon {
+        font-size: 1.1rem;
+        position: absolute;
+        left: 3vw;
+        top: 1vh;
+        font-weight: 500;
+    }
+ 
     #logo-img{
         width: 150px;
         height: auto;
@@ -126,8 +133,18 @@
 
 /* small to medium */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    /* Introduction Section Styling */
 
+    #methodology2 div {
+        font-size: 2.5vw;
+    }
+    /* Introduction Section Styling */
+    #click-icon {
+        font-size: 1.1rem;
+        position: absolute;
+        left: 3vw;
+        top: 1vh;
+        font-weight: 500;
+    }
     #intro-bg-img{
         height: 40vh;
     }
@@ -408,6 +425,14 @@
 
 @media screen and (max-width: 480px) {
     /* Introduction Section Styling */
+    #click-icon {
+        font-size: 1rem;
+        position: absolute;
+        left: 3vw;
+        top: 1vh;
+        font-weight: 500;
+    }
+ 
     #intro-bg-img{
         height: 45vh;
     }
@@ -603,7 +628,12 @@
     .findings  p{
         font-size: 1rem;
     }
-    
+    .meth-div {
+        font-size: 1rem;
+    }
+    .meth-title {
+        font-size: 5vw;
+    }
 
     #diversity #top5-text-overlay h1{
         font-size: 8vw;
@@ -717,7 +747,4 @@
         font-size: 2vw;
     }
 
-    #click-icon {
-        font-size: 1.1rem;
-    }
 }
