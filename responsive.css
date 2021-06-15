@@ -716,4 +716,8 @@
     .west p:last-child, .midwest p:last-child, .south p:last-child, .northeast p:last-child{
         font-size: 2vw;
     }
+
+    #click-icon {
+        font-size: 1.1rem;
+    }
 }
