@@ -3,6 +3,15 @@
 /* Intro SubHeading Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
 
+/* .table thead th .sortable{
+    background: none !important;
+}
+
+.table thead th .sortable.asc, .table thead th .sortable.desc{
+    background: #F55151 !important;
+} */
+
+
 html,body{
     margin: 0;
     overflow-x: hidden;
@@ -40,14 +49,14 @@ html,body{
 }
 
 #logo-img{
-    width: 282px;
-    height: 95px;
+    width: 25%;
+    /* height: 95px; */
 }
 
 .intro-heading{
     font-family: 'Montserrat';
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
     color: white;
     text-align: center;
     font-size: 3.5vw;
@@ -56,7 +65,7 @@ html,body{
 .intro-subheading{
     font-family: 'Work Sans';
     color: white;
-    line-height: 2.2rem;
+    line-height: 1.8em;
     text-align: center;
     font-size: 1.3vw;
     font-weight: 600;
@@ -92,21 +101,34 @@ html,body{
 }
 
 #methodology-bg-img{
-    width: 100vw;
+    width: 50vw;
 }
 
 #methodology-metrics #overlay-icons{
-    width: 100vw;
+    width: 50vw;
     height: 100%;
     position: absolute;
     top: 0;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #methodology-metrics #overlay-icons .icons{
     position: absolute;
     width: 12%;
+}
+
+#methodology-metrics #overlay-icons .icons:last-child{
+    width: 15%;
+}
+
+#methodology-metrics #overlay-icons .icons:last-child img{
+    width: 65%;
+    transition: transform 0.3s ;
+}
+
+#methodology-metrics #overlay-icons .icons a{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,8 +143,8 @@ html,body{
 #methodology-metrics #overlay-icons .icons h1{
     text-align: center;
     font-family: 'Work Sans';
+    font-size: 1.3vw;
     font-weight: 600;
-    font-size: 2em;
 }
 
 #methodology-metrics #overlay-icons .icons:hover{
@@ -161,9 +183,9 @@ html,body{
 #methodology-text{
     margin-top: 5vh ;
     font-family: 'Work Sans';
-    line-height: 1.3;
+    line-height: 1.8em;
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -172,11 +194,16 @@ html,body{
 }
 
 #table .img-thumbnail{
-    width: 2.5vw;
+    width: fit-content !important;
     height: auto;
 }
 
+.table tr td:first-child{
+    text-align: left;
+}
+
 #methodology-table-container .ribbon-container{
+    margin-top: 2em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -200,25 +227,27 @@ html,body{
     font-size: 4rem;
 }
 
-#methodology-table-container .icons-container{
-    padding: 0 5vw;
-    height: 30vh;
-}
 
 #methodology-table-container .icons-container .icon .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
 }
 #methodology-table-container .icons-container .icon img{
-    /* width: 100%; */
-    height: 100%;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
 }
 
 #methodology-table-container .icons-container .icon span{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1rem;
+    margin-top: 0.5em;
+    line-height: 1em;
     height: 10vh;
 }
 
@@ -276,11 +305,16 @@ html,body{
 }
 
 #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
+
+/* .graph-container{
+    max-width: 35%;
+    width: 35%;
+} */
 
 #top5 .overview-container,
 #diversity .overview-container,
@@ -290,7 +324,8 @@ html,body{
 #health .overview-container{
     color: white;
     background: rgb(44,39,56);
-    padding: 20px;
+    margin: 0 !important;
+    padding: 30px;
 }
 
 #top5 .overview-container .top-score h3:first-child,
@@ -300,19 +335,32 @@ html,body{
 #freedom .overview-container .top-score h3:first-child ,
 #health .overview-container .top-score h3:first-child{
     color: rgba(245, 81, 81, 1);
+    margin-bottom: 1em;
 }
 
 #top5 .overview-container .low-score h3:first-child,
 #diversity .overview-container .low-score h3:first-child,
 #inclusivity .overview-container .low-score h3:first-child,
-#sustainability .overview-container .top-score h3:first-child,
-#freedom .overview-container .top-score h3:first-child,
-#health .overview-container .top-score h3:first-child{
+#sustainability .overview-container .low-score h3:first-child,
+#freedom .overview-container .low-score h3:first-child,
+#health .overview-container .low-score h3:first-child{
     color: rgba(242, 172, 87, 1);
+    margin-bottom: 1em;
 }
+
+#top5 .overview-container .score-name,
+#diversity .overview-container .score-name,
+#inclusivity .overview-container .score-name,
+#sustainability .overview-container .score-name,
+#freedom .overview-container .score-name ,
+#health .overview-container .score-name{
+    margin-top: 1em;
+}
+
 
 /*Top 5 Stylings*/
 .top5-container .ribbon-container{
+    margin-top: 2em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -347,11 +395,14 @@ html,body{
 
 .top5-container .cards-container .card .mycard-number{
     color: white;
-    position: absolute;
+    margin: auto;
     border-radius: 50%;
-    top: -2.5vh;
-    left: 38%;
-    padding: 10px 20px;
+    margin-top: -2.5vh;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(245, 81, 81, 1);
     font-size: 1.7vw;
     font-weight: bolder;
@@ -379,6 +430,7 @@ html,body{
 .top5-container .cards-container .card .card-body .name{
     font-family: 'Montserrat';
     text-transform: uppercase;
+    font-size: 1vw;
     height: 20%;
 }
 
@@ -395,6 +447,7 @@ html,body{
 }
 
 .bottom5-container .ribbon-container{
+    margin-top: 2em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -429,11 +482,14 @@ html,body{
 
 .bottom5-container .cards-container .card .mycard-number{
     color: white;
-    position: absolute;
+    margin: auto;
     border-radius: 50%;
-    top: -3.5vh;
-    left: 40%;
-    padding: 10px 20px;
+    margin-top: -2.5vh;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(242, 172, 87, 1);
     font-size: 1.7vw;
     font-weight: bolder;
@@ -460,6 +516,7 @@ html,body{
 
 .bottom5-container .cards-container .card .card-body .name{
     font-family: 'Montserrat';
+    font-size: 1vw;
     text-transform: uppercase;
     height: 20%;
 }
@@ -488,6 +545,7 @@ html,body{
 
 /*Top 1 University Stylings*/
 #top1 .ribbon-container{
+    margin-top: 2em;
     position: relative;
     display: flex;
     justify-content: center;
@@ -528,7 +586,7 @@ html,body{
 }
 
 #top1 .details .card:last-child .card-body img{
-    height: 35%;
+    height: 45%;
 }
 
 #top1 .details .card:last-child .card-body{
@@ -544,12 +602,18 @@ html,body{
 .findings h1{
     font-family: 'Montserrat';
     margin-bottom: 15px;
+    margin-top: 1em;
     font-size: 3.5vw;
 }
 
 .findings p{
     font-family: 'Work Sans';
     font-size: 1.3vw;
+    line-height: 1.8em;
+}
+
+.findings a{
+    margin-bottom: 4em;
 }
 
 /*Diversity Section Stylings*/
@@ -574,9 +638,9 @@ html,body{
 }
 
 #diversity #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
@@ -606,9 +670,9 @@ html,body{
 }
 
 #inclusivity #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
@@ -638,9 +702,9 @@ html,body{
 }
 
 #sustainability #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
@@ -670,9 +734,9 @@ html,body{
 }
 
 #freedom #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
@@ -702,9 +766,9 @@ html,body{
 }
 
 #health #top5-text-overlay p{
-    margin-top: 3vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
@@ -807,11 +871,14 @@ html,body{
 
 .region-button{
     cursor: pointer;
+    padding-top: 10px;
     transition: 0.5s transform ease-in-out;
 }
 
 .region-button.active{
     transform: scale(1.2);
+    background-color: rgb(83, 82, 82);
+    border-radius: 25px ;
 }
 
 .region-button:hover{
@@ -824,14 +891,14 @@ html,body{
 }
 
 #regional #top5-text-overlay p{
-    margin-top: 2vh;
     font-family: 'Work Sans';
-    font-size: 1.7vw;
+    font-size: 1.3vw;
+    line-height: 1.8em;
     font-weight: 600;
 }
 
 #regional #top5-text-overlay img{
-    width: 13%;
+    width: 15%;
 }
 
 .top5-container .cards-container .card .card-body .logo img{
@@ -857,6 +924,8 @@ html,body{
 }
 
 #methodology2 h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-family: "Montserrat";
     /* font-size: 4rem; */
 }
@@ -865,7 +934,7 @@ html,body{
     font-size: 1.3rem;
     position: absolute;
     left: 3vw;
-    top: 8vh;
+    top: -2vh;
     font-weight: 500;
 }
 
