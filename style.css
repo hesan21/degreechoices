@@ -10,7 +10,10 @@
 .table thead th .sortable.asc, .table thead th .sortable.desc{
     background: #F55151 !important;
 } */
-
+canvas{
+    height: 600 !important;
+    width: 600 !important;
+}
 
 html,body{
     margin: 0;
@@ -116,16 +119,7 @@ html,body{
 
 #methodology-metrics #overlay-icons .icons{
     position: absolute;
-    width: 12%;
-}
-
-#methodology-metrics #overlay-icons .icons:last-child{
-    width: 15%;
-}
-
-#methodology-metrics #overlay-icons .icons:last-child img{
-    width: 65%;
-    transition: transform 0.3s ;
+    text-align: center;
 }
 
 #methodology-metrics #overlay-icons .icons a{
@@ -136,11 +130,13 @@ html,body{
 }
 
 #methodology-metrics #overlay-icons .icons img{
-    width: 75%;
+    width: 25%;
     transition: transform 0.3s ;
 }
 
 #methodology-metrics #overlay-icons .icons h1{
+    width: 50%;
+    margin: auto;
     text-align: center;
     font-family: 'Work Sans';
     font-size: 1.3vw;
@@ -156,28 +152,28 @@ html,body{
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(1){
-    top: 25%;
-    left: 15%;
+    top: 20%;
+    left: 5%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(2){
-    top: 15%;
-    left: 37%;
+    top: 7%;
+    left: 25%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(3){
-    top: 23%;
-    left: 62%;
+    top: 25%;
+    left: 48%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(4){
     top: 45%;
-    left: 80%;
+    left: 65%;
 }
 
 #methodology-metrics #overlay-icons .icons:nth-child(5){
     top: 60%;
-    left: 42%;
+    left: 28%;
 }
 
 #methodology-text{

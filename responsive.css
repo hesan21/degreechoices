@@ -2,10 +2,9 @@
 @media screen and (min-width: 767px) and (max-width: 1000px) {
     /* Introduction Section Styling */
     #click-icon {
-        font-size: 1.1rem;
+        font-size: 2vw;
         position: absolute;
-        left: 3vw;
-        top: 1vh;
+        /* left: 3vw; */
         font-weight: 500;
     }
  
@@ -19,7 +18,7 @@
     }
     
     .intro-subheading{
-        line-height: 2rem;
+        /* line-height: em; */
         font-size: 2vw;
     }
 
@@ -32,12 +31,57 @@
         font-size: 2vw;
     }
 
-    #methodology-metrics #overlay-icons .icons h1{
-        font-size: 3vw;
+    #methodology-text{
+        font-size: 2vw !important;
     }
 
+    #methodology-metrics #overlay-icons .icons{
+        width: 35%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:last-child{
+        width: fit-content;
+    }
+
+    #methodology-metrics #overlay-icons .icons:last-child img{
+        width: 20%;
+    }
+
+    #methodology-metrics #overlay-icons .icons img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons h1{
+        font-size: 1.7vw;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(1){
+        top: 20%;
+        left: 3%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(2){
+        top: 5%;
+        left: 25%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(3){
+        top: 25%;
+        left: 50%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4){
+        top: 45%;
+        left: 65%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(5){
+        top: 60%;
+        left: 20%;
+    }
+
+
     #methodology-table-container .ribbon-container img,
-    .top5-container .ribbon-container img,
     #top1 .ribbon-container img{
         width: 75%;
     }
@@ -50,6 +94,21 @@
         font-family: 'Montserrat';
         font-size: 3rem;
     }
+
+    .top5-container .ribbon-container .ribbon-text,
+    .bottom5-container .ribbon-container .ribbon-text{
+        position: absolute;
+        top: 22%;
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 2.5rem;
+    }
+
+    .top5-container .ribbon-container img,
+    .bottom5-container .ribbon-container img{
+        width: 50%;
+    }
+
     .top5-container .cards-container .card .mycard-number,
     .bottom5-container .cards-container .card .mycard-number{
         left: 35%;
@@ -62,14 +121,23 @@
     #methodology-table-container .icons-container .icon {
         margin: 0 10px !important;
     }
+    
+    #table .img-thumbnail{
+        width: 40px !important;
+        height: 40px;
+    }
 
     #top5-text-overlay h1{
-        font-size: 3vw;
+        font-size: 4vw !important;
     }
 
     #top5-text-overlay p{
         margin-top: 2vh;
-        font-size: 2vw;
+        font-size: 2vw !important;
+    }
+
+    #top5-text-overlay img{
+        width: 20% !important;
     }
 
     .top5-container .ribbon-text {
@@ -77,13 +145,24 @@
         /*left: 40%;*/
         font-size: 4rem;
     }
+    
+    .top5-container .cards-container .card .mycard-number,
+    .bottom5-container .cards-container .card .mycard-number{
+        font-size: 2vw;
+    }
+
+    .top5-container .cards-container .card .card-body .name,
+    .bottom5-container .cards-container .card .card-body .name{
+        font-size: 2vw;
+    }
 
     #top5 .findings h1{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #top5 .findings p{
-        font-size: 3.3vw;
+        font-size: 2vw;
+        /* font-size: 3.3vw; */
     }
 
     #top1 .details{
@@ -95,7 +174,7 @@
     }
 
     .findings h1{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .findings p{
@@ -137,6 +216,7 @@
     #methodology2 div {
         font-size: 2.5vw;
     }
+
     /* Introduction Section Styling */
     #click-icon {
         font-size: 1.1rem;
@@ -145,9 +225,11 @@
         top: 1vh;
         font-weight: 500;
     }
+
     #intro-bg-img{
         height: 40vh;
     }
+    
     #logo-img{
         width: 130px;
         height: auto;
@@ -162,9 +244,9 @@
     .intro-subheading{
         font-family: 'Work Sans';
         color: white;
-        line-height: 1.3rem;
+        line-height: 1.3em;
         text-align: center;
-        font-size: 2.2vw;
+        font-size: 3vw;
     }
 
     /* Methodology Section Styling */
@@ -197,9 +279,69 @@
         font-size: 2.7rem;
     }
 
+    #overview-flex{
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 2em 0 ;
+    }
+
     #methodology-text{
-        font-size: 4vw;
+        margin: 0;
+        font-size: 3vw;
         text-align: center;
+    }
+
+    #methodology-metrics{
+        margin-top: 2em;
+    }
+
+    #methodology-metrics p {
+        margin-top: -2vh;
+    }
+
+    #methodology-metrics img{
+        width: 100vw;
+    }
+
+    #methodology-metrics #overlay-icons{
+        width: 100%;
+    }
+
+    #methodology-metrics #overlay-icons .icons{
+        width: 35% !important;
+    }
+
+    #methodology-metrics #overlay-icons .icons img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4) img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(1){
+        top: 23%;
+        left: 2%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(2){
+        top: 8%;
+        left: 25%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(3){
+        top: 20%;
+        left: 50%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4){
+        top: 50%;
+        left: 65%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(5){
+        top: 60%;
+        left: 28%;
     }
 
     .myTableContainer{
@@ -213,12 +355,26 @@
     }
 
     .myDataTable{
-        width: 1000px;
+        /* width: 1000px; */
+        font-size: 2vw;
+    }
+
+    .th-inner{
+        padding: 0 !important;
+    }
+
+    .sortable{
+        padding-right: 0 !important;
+    }
+
+    .th-inner.sortable.both{
+        width: 100%;
+        background: none !important;
     }
 
     #table .img-thumbnail{
-        width: 4vw;
-        height: auto;
+        width: 30px !important;
+        height: 35px;
     }
 
     #methodolgy-footer-text h1{
@@ -230,12 +386,13 @@
     }
 
     #top5-text-overlay h1{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     #top5-text-overlay p{
         margin-top: 2vh ;
-        font-size: 2.5vw;
+        font-size: 3vw;
+        line-height: 1.3rem;
     }
 
     #top5 .overview-container,
@@ -245,6 +402,15 @@
     #freedom .overview-container,
     #health .overview-container{
         flex-direction: column;
+    }
+
+    #top5 .overview-container .graph-container,
+    #diversity .overview-container .graph-container,
+    #inclusivity .overview-container .graph-container,
+    #sustainability .overview-container .graph-container,
+    #freedom .overview-container .graph-container,
+    #health .overview-container .graph-container{
+        margin: 1em 0;
     }
 
     .top5-container .ribbon-text {
@@ -270,6 +436,11 @@
 
     .top5-container .cards-container .card .card-body .score{
         font-size: 5vw;
+    }
+
+    .top5-container .cards-container .card .card-body .name,
+    .bottom5-container .cards-container .card .card-body .name{
+        font-size: 3vw;
     }
 
     .bottom5-container .ribbon-text {
@@ -298,7 +469,7 @@
     }
 
     #top5 .findings h1{
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     #top5 .findings p{
@@ -319,11 +490,20 @@
     }
 
     .findings h1{
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     .findings p{
         font-size: 2.5vw;
+    }
+
+    #diversity #top5-banner,
+    #inclusivity #top5-banner,
+    #sustainability #top5-banner,
+    #freedom #top5-banner,
+    #health #top5-banner,
+    #regional #top5-banner{
+        height: 50vh;
     }
 
     #diversity #top5-text-overlay h1{
@@ -445,15 +625,19 @@
     .intro-heading{
         margin-top: 1.2rem;
         margin-bottom: 1rem;
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     
     .intro-subheading{
         font-family: 'Work Sans';
         color: white;
-        line-height: 1.3rem;
+        line-height: 1.2;
         text-align: center;
         font-size: 3vw;
+    }
+
+    #top5-bg-img{
+        height: 35vh;
     }
 
     /* Methodology Section Styling */
@@ -486,11 +670,69 @@
         font-size: 2rem;
     }
 
+    #overview-flex{
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 2em 0 ;
+    }
+
     #methodology-text{
-        line-height: 1.3;
-        font-weight: 200;
-        font-size: 3.7vw;
+        margin: 0;
+        font-size: 3vw;
         text-align: center;
+    }
+
+    #methodology-metrics{
+        margin-top: 2em;
+    }
+
+    #methodology-metrics p {
+        margin-top: -2vh;
+    }
+
+    #methodology-metrics img{
+        width: 100vw;
+    }
+
+    #methodology-metrics #overlay-icons{
+        width: 100%;
+    }
+
+    #methodology-metrics #overlay-icons .icons{
+        width: 35% !important;
+    }
+
+    #methodology-metrics #overlay-icons .icons img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4) img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(1){
+        top: 23%;
+        left: 2%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(2){
+        top: 8%;
+        left: 25%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(3){
+        top: 20%;
+        left: 50%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4){
+        top: 50%;
+        left: 65%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(5){
+        top: 60%;
+        left: 28%;
     }
 
     .myTableContainer{
@@ -504,7 +746,26 @@
     }
 
     .myDataTable{
-        width: 1000px;
+        /* width: 1000px; */
+        font-size: 2vw;
+    }
+
+    .th-inner{
+        padding: 0 !important;
+    }
+
+    .sortable{
+        padding-right: 0 !important;
+    }
+
+    .th-inner.sortable.both{
+        width: 100%;
+        background: none !important;
+    }
+
+    #table .img-thumbnail{
+        width: 30px !important;
+        height: 30px;
     }
 
     #table .img-thumbnail{
@@ -521,12 +782,12 @@
     }
 
     #top5-text-overlay h1{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     #top5-text-overlay p{
         margin-top: 2vh;
-        font-size: 0.9rem;
+        font-size: 3.5vw;
         line-height: 1.2;
     }
 
@@ -539,8 +800,26 @@
         flex-direction: column;
     }
 
+    #diversity #top5-banner,
+    #inclusivity #top5-banner,
+    #sustainability #top5-banner,
+    #freedom #top5-banner,
+    #health #top5-banner,
+    #regional #top5-banner{
+        height: 50vh;
+    }
+
+    #top5 .overview-container .graph-container,
+    #diversity .overview-container .graph-container,
+    #inclusivity .overview-container .graph-container,
+    #sustainability .overview-container .graph-container,
+    #freedom .overview-container .graph-container,
+    #health .overview-container .graph-container{
+        margin: 1em 0;
+    }
+
     .top5-container .ribbon-text {
-        top: 20%;
+        top: 24%;
         /*left: 38%;*/
         font-size: 8vw;
     }
@@ -564,12 +843,17 @@
         font-size:4vw
     }
 
+    .top5-container .cards-container .card .card-body .name,
+    .bottom5-container .cards-container .card .card-body .name{
+        font-size: 3vw;
+    }
+
     .top5-container .cards-container .card .card-body .score{
         font-size: 5vw;
     }
 
     .bottom5-container .ribbon-text {
-        top: 20%;
+        top: 24%;
         /*left: 30%;*/
         font-size: 8vw;
     }
@@ -578,6 +862,7 @@
         width: 30%;
     }
 
+    .top5-container .cards-container,
     .bottom5-container .cards-container{
         padding: 0 15px !important;
     }
@@ -626,7 +911,8 @@
     }
 
     .findings  p{
-        font-size: 1rem;
+        font-size: 3vw;
+        line-height: 1.8em;
     }
     .meth-div {
         font-size: 1rem;
@@ -747,4 +1033,9 @@
         font-size: 2vw;
     }
 
+    .region-button:nth-child(4),
+    .region-button:nth-child(5),
+    .region-button:nth-child(6) {
+        margin-top: 2em;
+    }
 }
