@@ -809,6 +809,15 @@
         height: 55vh;
     }
 
+    #diversity #top5-text-overlay .intro-subheading,
+    #inclusivity #top5-text-overlay .intro-subheading,
+    #sustainability #top5-text-overlay .intro-subheading,
+    #freedom #top5-text-overlay .intro-subheading,
+    #health #top5-text-overlay .intro-subheading,
+    #regional #top5-text-overlay .intro-subheading{
+        line-height: 1.3;
+    }
+
     #top5 .overview-container .graph-container,
     #diversity .overview-container .graph-container,
     #inclusivity .overview-container .graph-container,
