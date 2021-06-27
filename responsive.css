@@ -735,6 +735,10 @@
         left: 28%;
     }
 
+    #methodology-metrics #overlay-icons .icons:nth-child(5) img{
+        margin-left: 2em;
+    }
+
     .myTableContainer{
         max-width: 500px;
         overflow: scroll;
