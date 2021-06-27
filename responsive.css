@@ -8,9 +8,20 @@
         font-weight: 500;
     }
  
+    #new-intro{
+        height: 80vh;
+    }
+
     #logo-img{
-        width: 150px;
-        height: auto;
+        width: 30%;
+    }
+    #new-intro-heading{
+        font-size: 4vw;
+    }
+    
+    #new-intro-subheading{
+        line-height: 1.5em;
+        font-size: 2vw;
     }
     
     .intro-heading{
@@ -217,6 +228,22 @@
         font-size: 2.5vw;
     }
 
+    #new-intro{
+        height: 50vh;
+    }
+
+    #logo-img{
+        width: 30%;
+    }
+    #new-intro-heading{
+        font-size: 4vw;
+    }
+    
+    #new-intro-subheading{
+        line-height: 1.5em;
+        font-size: 2.5vw;
+    }
+
     /* Introduction Section Styling */
     #click-icon {
         font-size: 1.1rem;
@@ -248,6 +275,10 @@
         text-align: center;
         font-size: 3vw;
     }
+
+    /* #top5-banner {
+        height: 30vh;
+    } */
 
     /* Methodology Section Styling */
     #methodolgy-header h1{
@@ -612,14 +643,25 @@
         top: 1vh;
         font-weight: 500;
     }
- 
-    #intro-bg-img{
-        height: 45vh;
+
+    #new-intro{
+        height: 40vh;
     }
 
     #logo-img{
-        width: 130px;
-        height: auto;
+        width: 30%;
+    }
+    #new-intro-heading{
+        font-size: 4vw;
+    }
+    
+    #new-intro-subheading{
+        line-height: 1.2;
+        font-size: 3vw;
+    }
+ 
+    #intro-bg-img{
+        height: 45vh;
     }
     
     .intro-heading{
