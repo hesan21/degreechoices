@@ -47,8 +47,8 @@ html,body{
     height: 100%;
     right: 0;
     top: 0;
-    -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%); 
+    -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 200%, 0% 0%);
+    clip-path: polygon(50% 0, 100% 0%, 100% 200%, 0% 0%);
 }
 
 .right-intro img{
@@ -65,14 +65,14 @@ html,body{
 }
 
 #text-overlay{
-    width: 75%;
+    width: 50%;
     position: absolute;
     padding: 1vw;
     display: flex;
     top: 50%;
-    left: 50%;
+    left: 25%;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
     justify-content: center;
     transform: translate(-50%, -50%);
 }
