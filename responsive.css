@@ -16,7 +16,7 @@
         width: 30%;
     }
     #new-intro-heading{
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     
     #new-intro-subheading{
@@ -232,16 +232,20 @@
         height: 50vh;
     }
 
+    #text-overlay{
+        top: 60%;
+    }
+
     #logo-img{
         width: 30%;
     }
     #new-intro-heading{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     
     #new-intro-subheading{
-        line-height: 1.5em;
-        font-size: 2.5vw;
+        line-height: 1.3em;
+        font-size: 2vw;
     }
 
     /* Introduction Section Styling */
@@ -634,7 +638,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 350px) and (max-width: 480px) {
     /* Introduction Section Styling */
     #click-icon {
         font-size: 1rem;
@@ -648,8 +652,12 @@
         height: 40vh;
     }
 
+    #text-overlay{
+        top: 60%;
+    }
+
     #logo-img{
-        width: 30%;
+        width: 50%;
     }
     #new-intro-heading{
         font-size: 4vw;
@@ -1088,9 +1096,465 @@
         font-size: 2vw;
     }
 
-    .region-button:nth-child(4),
-    .region-button:nth-child(5),
-    .region-button:nth-child(6) {
+}
+
+@media screen and (max-width: 350px) {
+    /* Introduction Section Styling */
+    #click-icon {
+        font-size: 1rem;
+        position: absolute;
+        left: 3vw;
+        top: 1vh;
+        font-weight: 500;
+    }
+
+    #new-intro{
+        height: 40vh;
+    }
+
+    #text-overlay{
+        top: 60%;
+    }
+
+    #logo-img{
+        width: 50%;
+    }
+    #new-intro-heading{
+        font-size: 4vw;
+    }
+    
+    #new-intro-subheading{
+        line-height: 1.2;
+        font-size: 3vw;
+    }
+ 
+    #intro-bg-img{
+        height: 45vh;
+    }
+    
+    .intro-heading{
+        margin-top: 1.2rem;
+        margin-bottom: 1rem;
+        font-size: 5vw;
+    }
+    
+    .intro-subheading{
+        font-family: 'Work Sans';
+        color: white;
+        line-height: 1.2;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    #top5-bg-img{
+        height: 35vh;
+    }
+
+    /* Methodology Section Styling */
+    #methodolgy-header h1{
+        font-size: 6vw;
+    }
+
+    #methodolgy-header p{
+        font-size: 4vw;
+    }
+
+    #methodology-metrics #overlay-icons .icons h1{
+        font-size: 4vw;
+    }
+
+    #methodology-table-container .ribbon-container img,
+    .top5-container .ribbon-container img,
+    .bottom5-container .ribbon-container img,
+    #top1 .ribbon-container img{
+        width: 75%;
+    }
+
+    #methodology-table-container .ribbon-text
+    {
+        position: absolute;
+        top: 20%;
+        /*left: 38%;*/
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 2rem;
+    }
+
+    #overview-flex{
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 2em 0 ;
+    }
+
+    #methodology-text{
+        margin: 0;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #methodology-metrics{
         margin-top: 2em;
     }
+
+    #methodology-metrics p {
+        margin-top: -2vh;
+        font-size: 3.5vw;
+    }
+
+    #methodology-metrics img{
+        width: 100vw;
+    }
+
+    #methodology-metrics #overlay-icons{
+        width: 100%;
+    }
+
+    #methodology-metrics #overlay-icons .icons{
+        width: 35% !important;
+    }
+
+    #methodology-metrics #overlay-icons .icons img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4) img{
+        width: 30%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(1){
+        top: 23%;
+        left: 2%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(2){
+        top: 8%;
+        left: 25%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(3){
+        top: 20%;
+        left: 50%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(4){
+        top: 50%;
+        left: 65%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(5){
+        top: 60%;
+        left: 28%;
+    }
+
+    #methodology-metrics #overlay-icons .icons:nth-child(5) img{
+        margin-left: 2em;
+    }
+
+    .myTableContainer{
+        max-width: 500px;
+        overflow: scroll;
+
+    }
+
+    #methodology-table-container .icons-container{
+        height: auto;
+    }
+
+    .myDataTable{
+        /* width: 1000px; */
+        font-size: 2vw;
+    }
+
+    .th-inner{
+        padding: 0 !important;
+    }
+
+    .sortable{
+        padding-right: 0 !important;
+    }
+
+    .th-inner.sortable.both{
+        width: 100%;
+        background: none !important;
+    }
+
+    #table .img-thumbnail{
+        width: 30px !important;
+        height: 30px;
+    }
+
+    #table .img-thumbnail{
+        width: 4vw;
+        height: auto;
+    }
+
+    #methodolgy-footer-text h1{
+        font-size: 5vw;
+    }
+
+    #methodolgy-footer-text p{
+        font-size: 0.9rem;
+    }
+
+    #top5-text-overlay h1{
+        font-size: 5vw;
+    }
+
+    #top5-text-overlay p{
+        margin-top: 2vh;
+        font-size: 3.5vw;
+        line-height: 1.2;
+    }
+
+    #top5 .overview-container,
+    #diversity .overview-container,
+    #inclusivity .overview-container,
+    #sustainability .overview-container,
+    #freedom .overview-container,
+    #health .overview-container{
+        flex-direction: column;
+    }
+
+    #diversity #top5-banner,
+    #inclusivity #top5-banner,
+    #sustainability #top5-banner,
+    #freedom #top5-banner,
+    #health #top5-banner,
+    #regional #top5-banner{
+        height: 55vh;
+    }
+
+    #diversity #top5-text-overlay .intro-subheading,
+    #inclusivity #top5-text-overlay .intro-subheading,
+    #sustainability #top5-text-overlay .intro-subheading,
+    #freedom #top5-text-overlay .intro-subheading,
+    #health #top5-text-overlay .intro-subheading,
+    #regional #top5-text-overlay .intro-subheading{
+        line-height: 1.3;
+    }
+
+    #top5 .overview-container .graph-container,
+    #diversity .overview-container .graph-container,
+    #inclusivity .overview-container .graph-container,
+    #sustainability .overview-container .graph-container,
+    #freedom .overview-container .graph-container,
+    #health .overview-container .graph-container{
+        margin: 1em 0;
+    }
+
+    .top5-container .ribbon-text {
+        top: 24%;
+        /*left: 38%;*/
+        font-size: 8vw;
+    }
+
+    .top5-container .cards-container .card .card-body .logo img{
+        width: 30%;
+    }
+
+    .top5-container .cards-container .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .top5-container .cards-container .card .card-body .logo img{
+        width: 30%;
+    }
+
+    .top5-container .cards-container .card .mycard-number{
+        top: -2.5vh;
+        left: 43%;
+        font-size:4vw
+    }
+
+    .top5-container .cards-container .card .card-body .name,
+    .bottom5-container .cards-container .card .card-body .name{
+        font-size: 3vw;
+    }
+
+    .top5-container .cards-container .card .card-body .score{
+        font-size: 5vw;
+    }
+
+    .bottom5-container .ribbon-text {
+        top: 24%;
+        /*left: 30%;*/
+        font-size: 8vw;
+    }
+
+    .bottom5-container .cards-container .card .card-body .logo img{
+        width: 30%;
+    }
+
+    .top5-container .cards-container,
+    .bottom5-container .cards-container{
+        padding: 0 15px !important;
+    }
+    .bottom5-container .cards-container .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .bottom5-container .cards-container .card .card-body .logo img{
+        width: 30%;
+    }
+
+    .bottom5-container .cards-container .card .mycard-number{
+        top: -2.5vh;
+        left: 43%;
+        font-size:4vw
+    }
+
+    .bottom5-container .cards-container .card .card-body .score{
+        font-size: 5vw;
+    }
+
+    #top5 .findings h1 {
+        font-size: 3.5vw;
+    }
+
+    #top5 .findings p{
+        font-size: 3.3vw;
+    }
+
+    #top1 .details{
+        height: auto;
+    }
+
+    #top1 .ribbon-text {
+        top: 20%;
+        /*left: 50%;*/
+        font-size: 2.5rem;
+    }
+
+    #top1 .details .card .card-body h3{
+        font-size: 3.5vw;
+    }
+    .findings h1{
+        font-size: 5vw;
+    }
+
+    .findings  p{
+        font-size: 3vw;
+        line-height: 1.8em;
+    }
+    .meth-div {
+        font-size: 1rem;
+    }
+    .meth-title {
+        font-size: 5vw;
+    }
+
+    #diversity #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #diversity #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #diversity #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #inclusivity #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #inclusivity #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #inclusivity #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #sustainability #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #sustainability #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #sustainability #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #freedom #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #freedom #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #freedom #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #health #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+
+    #health #top5-text-overlay p{
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+    #health #top5-text-overlay img{
+        width: 20%;
+    }
+
+    #regional #top5-text-overlay h1{
+        font-size: 8vw;
+    }
+    #regional #top5-text-overlay p {
+        font-size: 3.7vw;
+        line-height: 1.7;
+    }
+
+    .regions img{
+        width: 90% !important;
+    }
+
+    #regional #top5-text-overlay img{
+        width: 25%;
+    }
+
+    .west{
+        width: 50px;
+        height: 50px;
+        top: 35%;
+        left: 12%;
+    }
+
+    .midwest{
+        width: 40px;
+        height: 40px;
+        top: 20%;
+        left: 42%;
+    }
+
+    .south{
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        left: 42%;
+    }
+
+    .northeast{
+        width: 60px;
+        height: 60px;
+        top: 25%;
+        right:17%;
+    }
+
+    .west p:first-child, .midwest p:first-child, .south p:first-child, .northeast p:first-child{
+        font-size: 2vw;
+    }
+
+    .west p:last-child, .midwest p:last-child, .south p:last-child, .northeast p:last-child{
+        font-size: 2vw;
+    }
+
 }

@@ -9,7 +9,7 @@ let top5_top = new Chart(ctx, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [91.26, 8.74],
+            data: [74.3, 25.7],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -34,7 +34,7 @@ let top5_top = new Chart(ctx, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "91.26" ;
+                let theCenterText = "74.3" ;
                 const canvasBounds = canvas.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -52,7 +52,7 @@ let top5_lowest = new Chart(ctx2, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [52.69, 47.31],
+            data: [48.8, 51.2],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -77,7 +77,7 @@ let top5_lowest = new Chart(ctx2, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "52.69" ;
+                let theCenterText = "48.8" ;
                 const canvasBounds = canvas2.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -102,7 +102,7 @@ new Chart(ctx3, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [58.59, 41.41],
+            data: [95.0, 5.0],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -127,7 +127,7 @@ new Chart(ctx3, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "58.59" ;
+                let theCenterText = "95.0" ;
                 const canvasBounds = canvas3.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -145,7 +145,7 @@ new Chart(ctx4, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [10.81, 89.29],
+            data: [30.0, 70.0],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -170,7 +170,7 @@ new Chart(ctx4, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "10.81" ;
+                let theCenterText = "30.0" ;
                 const canvasBounds = canvas4.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -195,7 +195,7 @@ new Chart(ctx5, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [96.05, 3.95],
+            data: [95.0, 5.0],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -220,7 +220,7 @@ new Chart(ctx5, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "96.05" ;
+                let theCenterText = "95.0" ;
                 const canvasBounds = canvas5.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -238,7 +238,7 @@ new Chart(ctx6, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [15.44, 84.56],
+            data: [30.0, 70.0],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -263,7 +263,7 @@ new Chart(ctx6, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "15.44" ;
+                let theCenterText = "30.0" ;
                 const canvasBounds = canvas6.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -288,7 +288,7 @@ new Chart(ctx7, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [89.20, 10.80],
+            data: [95.0, 5.0],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -313,7 +313,7 @@ new Chart(ctx7, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "89.20" ;
+                let theCenterText = "95.0" ;
                 const canvasBounds = canvas7.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -331,7 +331,7 @@ new Chart(ctx8, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [46.27, 53.77],
+            data: [30.0, 70.0],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -356,7 +356,7 @@ new Chart(ctx8, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "46.27" ;
+                let theCenterText = "30.0" ;
                 const canvasBounds = canvas8.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -381,7 +381,7 @@ new Chart(ctx9, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [100, 0],
+            data: [95.0, 5.0],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -406,7 +406,7 @@ new Chart(ctx9, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "100" ;
+                let theCenterText = "95.0" ;
                 const canvasBounds = canvas9.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -424,7 +424,7 @@ new Chart(ctx10, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [0, 100],
+            data: [30.0, 70.0],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -449,7 +449,7 @@ new Chart(ctx10, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "0.0" ;
+                let theCenterText = "30.0" ;
                 const canvasBounds = canvas10.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -474,7 +474,7 @@ new Chart(ctx11, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [100, 0],
+            data: [95.0, 5.0],
             backgroundColor: [
                 'rgba(245, 81, 81, 1)',
                 '#999',
@@ -499,7 +499,7 @@ new Chart(ctx11, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "100" ;
+                let theCenterText = "95.0" ;
                 const canvasBounds = canvas11.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
@@ -517,7 +517,7 @@ new Chart(ctx12, {
         // labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
         datasets: [{
             label: 'Scores',
-            data: [0, 100],
+            data: [30.0, 70.0],
             backgroundColor: [
                 'rgba(242, 172, 87, 1)',
                 '#999',
@@ -542,7 +542,7 @@ new Chart(ctx12, {
     plugins: [
         {
             afterDraw: function (chart, option) {
-                let theCenterText = "0.0" ;
+                let theCenterText = "30.0" ;
                 const canvasBounds = canvas12.getBoundingClientRect();
                 const fontSz = Math.floor( canvasBounds.height * 0.15 ) ;
                 chart.ctx.textBaseline = 'middle';
