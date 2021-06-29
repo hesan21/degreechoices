@@ -248,25 +248,34 @@
     #methodology2 div {
         font-size: 2.5vw;
     }
-
+    /* No need to set the height on mobile? */
+    /* 
     #new-intro{
-        height: 50vh;
-    }
+        height: 80vh;
+    } */
 
     #text-overlay{
-        top: 60%;
+        padding: 1rem;
+        left: 50%;
+        width: 100%;
     }
-
+    .bootstrap-table .fixed-table-container .table thead th {
+        vertical-align: bottom;
+        padding: 5px;
+        margin: 0;
+      }
     #logo-img{
         width: 30%;
     }
     #new-intro-heading{
-        font-size: 3vw;
+        font-size: 4vw;
     }
-    
+    .left-intro {
+        width: 0%;
+    }
     #new-intro-subheading{
         line-height: 1.3em;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     /* Introduction Section Styling */
@@ -668,13 +677,24 @@
         top: 1vh;
         font-weight: 500;
     }
-
+    #text-overlay{
+        top: 60%;
+        padding: 1rem;
+        left: 50%;
+        width: 100%;
+    }
+    .left-intro {
+        width: 0%;
+    }
+    .right-intro {
+        width: 100%;
+    }
     #new-intro{
-        height: 40vh;
+        height: 80vh;
     }
 
     #text-overlay{
-        top: 60%;
+        top: 40%;
     }
 
     #logo-img{

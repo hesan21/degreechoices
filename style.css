@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 /* Intro SubHeading Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
-
+.bootstrap-table .fixed-table-container .table thead th .both p {
+    font-size: 0.7rem;
+}
 /* .table thead th .sortable{
     background: none !important;
 }
@@ -74,7 +76,7 @@ html,body{
     padding: 1vw;
     display: flex;
     top: 50%;
-    left: 30%;
+    left: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -100,7 +102,7 @@ html,body{
     color: white;
     line-height: 1.7em;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 600;
 }
 
