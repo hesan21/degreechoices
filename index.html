@@ -85,11 +85,11 @@
         <div id="text-overlay">
             <img src="./assets/logo-web.png" id="logo-img" alt="logo-img">
 
-            <h1 id="new-intro-heading">
+            <h1 id="new-intro-heading" class="d-none d-md-block">
                 Ranked: The Most Progressive Universities in the US
             </h1>
 
-            <div id="new-intro-subheading">
+            <div id="new-intro-subheading" class="d-none d-md-block">
                 Our study has assessed the top 40 universities across the U.S. based on statistics concerning diversity,
                 inclusivity, sustainability and freedom of speech.
                 <br><br>
@@ -107,16 +107,41 @@
 
             </div>
         </div>
-
     </section>
 
+    <!-- Intro-text -->
+    <div id="img-bottom-text" class="container d-block d-md-none text-center" style="margin-top: 1em;">
+        <h1 id="my-text-heading">
+            Ranked: The Most Progressive Universities in the US
+        </h1>
+
+        <div id="my-text-subheading">
+            Our study has assessed the top 40 universities across the U.S. based on statistics concerning diversity,
+            inclusivity, sustainability and freedom of speech.
+            <br><br>
+            Taking all factors into account we have allocated an overall progressivity score, to determine who tops
+            the charts.
+            <br><br>
+
+            We believe that gaining a degree is an investment in your future, which should not depend on your race,
+            gender, identity or socioeconomic background.
+            <br><br>
+
+            While no score should be taken as a definitive conclusion, since institutions may thrive in different
+            areas, we want to shine a light on progressivism in academia and help you make an informed choice about
+            your future.
+
+        </div>
+    </div>
+
     <!-- Top 5-->
-    <section id="top5">
+    <section id="top5" style="margin: 2em 0;">
+        <h1 id="new-heading">Which Universities are the Most Progressive in the U.S?</h1>
+
         <div id="overview-flex" class="d-flex flex-row px-3 align-items-center py-5">
             <div id="methodology-text" class="container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0"
                 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
                 data-aos-anchor-placement="top-bottom">
-                <b>Which Universities are the Most Progressive in the U.S?</b> <br><br>
                 Based on Diversity, inclusivity, sustainability and Freedom of Speech policies and statistics the below rankings reveal the most progressive Universities and Colleges in the United States.  <br><br>
                 To jump to a specific section of the study, please click on one of the five icons. <br><br>
                 For a complete breakdown of the sources and methodology used, please read our methodology section.
@@ -202,7 +227,7 @@
         <section id="top1" class="text-center d-flex flex-column justify-content-center align-items-center">
             <div class="ribbon-container p-0 mb-5 d-flex justify-content-center">
                 <img src="./assets/bg-ribbon.png" class="my-4 mx-auto ribbon-img" alt="">
-                <h1 class="ribbon-text">1</h1>
+                <h1 class="ribbon-text">Winner</h1>
             </div>
 
             <h1 class="mb-5">Stanford University</h1>
@@ -627,6 +652,7 @@
                 <div class="myTableContainer container" data-aos="fade-left" data-aos-offset="0" data-aos-delay="0"
                     data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
                     data-aos-anchor-placement="top-bottom">
+                    
                     <div class="data-table myDataTable ">
                         <table id="table" class="text-center">
                             <thead>
@@ -680,8 +706,24 @@
                                 </tr>
                             </thead>
                         </table>
+                        
+                        <div class="scrollable-icon d-md-none" id="scrollable-icon">
+                            <div class="d-flex justify-content-around flex-row w-100">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </div>
+                            <div class="hand">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-hand-index" viewBox="0 0 16 16">
+                                    <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                                </svg>
+                            </div>
+                            <div class="scrollable-text">Scrollable</div>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -741,7 +783,7 @@
                 <p class="intro-subheading mb-4" data-aos="fade-down" data-aos-offset="0" data-aos-delay="700"
                     data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
                     data-aos-anchor-placement="top-bottom">
-                    Which Universities in the US are the most diverse? Pulling in data measuring LGBTQ+ support, gender,
+                    Which Universities in the U.S. are the most diverse? Pulling in data measuring LGBTQ+ support, gender,
                     ethnic and geographic diversity, the following Universities scored the highest in our analysis…
                 </p>
 
@@ -1210,10 +1252,8 @@
                 <p class="intro-subheading mb-4" data-aos="fade-down" data-aos-offset="0" data-aos-delay="700"
                     data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
                     data-aos-anchor-placement="top-bottom">
-                    The University of Michigan scored highly in our measurements of free speech. Stating that it is
-                    against stopping events on the grounds that some people are opposed to the content of said event,
-                    its Freedom of Speech and Artistic Expression policy reads, “diverse points of view” are “of the
-                    highest importance” not just for the speaker, but those wanting to listen.
+                    Methodology: The number of organizations, student clubs, and any direct policies
+                    referencing freedom of speech were used to rank universities according to this metric.
                 </p>
 
                 <img src="./assets/freedom-icon.png" alt="">
@@ -1330,20 +1370,10 @@
 
                 <p data-aos="fade-down" data-aos-offset="0" data-aos-delay="0" data-aos-duration="1000"
                     data-aos-easing="ease-in-out" data-aos-once="true" data-aos-anchor-placement="top-bottom">
-                    The University of Michigan and Caltech sit at the extreme ends of the speech spectrum. The former
-                    scored 100% in our tests, while the latter had a score of 0%. This doesn’t necessarily mean that all
-                    speech is allowed at the University of Michigan and none at Caltech. However, it does suggest that
-                    freedom of speech is more of a topic at one than the other.
-                    <br><br>
-                    Indeed, the University of Michigan clearly states that it is against stopping events on the grounds
-                    that some people are opposed to the content of said event. Furthermore, its Freedom of Speech and
-                    Artistic Expression policy states that “diverse points of view” are “of the highest importance” not
-                    just for the speaker, but those wanting to listen.
-                    <br><br>
-                    The lowest scoring college in this category was Caltech. Although it is bound by First Amendment
-                    rights, certain internal policies mean it’s sometimes regarded as a place where free speech is
-                    stifled. For example, the Institute Policy on Unlawful Harassment makes certain forms of protected
-                    speech difficult on campus. For that reason, Caltech scored poorly in this area.
+                    The University of Michigan scored highly in our measurements of free speech. Stating that it is against stopping events 
+                    on the grounds that some people are opposed to the content of said event, 
+                    its Freedom of Speech and Artistic Expression policy reads, “diverse points of view” are “of 
+                    the highest importance” not just for the speaker, but those wanting to listen.
 
 
                 </p>
@@ -1773,11 +1803,11 @@
     </section> -->
 
     <section id="methodology2">
-        <div style="background: #2C2738" class="text-center p-2">
-            <h1 style="color: white" class="meth-title" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0"
+        <div style="background: white" class="text-center p-2">
+            <h1 style="color: black" class="meth-title" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0"
                 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true"
                 data-aos-anchor-placement="top-bottom">Methodology</h1>
-            <div class="meth-div container" data-aos="fade-down" data-aos-offset="0" data-aos-delay="1000"
+            <div class="meth-div container" style="color: black;" data-aos="fade-down" data-aos-offset="0" data-aos-delay="1000"
                 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
                 <strong>Data for this research came from the following sources. These were:</strong>
                 <ul>
@@ -1850,6 +1880,38 @@
     <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
 
     <script>
+        $(document).ready(function(){
+            (function(){
+                element = document.getElementById('scrollable-icon')
+
+                // if(isInViewport(element)){
+                //     setTimeout(() => {
+                //         element.style.display = "none"
+                //     }, 5000)
+                // }
+            })()
+        })
+
+        $('.myTableContainer').scroll(function(){
+            element = document.getElementById('scrollable-icon')
+
+            // if(isInViewport(element)){
+                // setTimeout(() => {
+                    element.style.display = "none"
+                // }, 5000)
+            // }
+        })
+        
+        // function isInViewport(element) {
+        //     const rect = element.getBoundingClientRect();
+        //     return (
+        //         rect.top >= 0 &&
+        //         rect.left >= 0 &&
+        //         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        //         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        //     );
+        // }
+
         function handleRegionClick(elem, regionId) {
 
             if (!elem.classList.contains('active')) {
@@ -2323,8 +2385,8 @@
     </script>
 
     <!--    ChartJS scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
-    <script src="charts/doughut-charts.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    <script src="charts/doughut-charts.js"></script> -->
 </body>
 
 </html>

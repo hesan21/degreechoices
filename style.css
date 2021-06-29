@@ -37,12 +37,14 @@ html,body{
 }
 
 .left-intro {
-    width: 70%;
+    width: 60%;
     left: 0;
     top: 0;
-    background: #2C2738 ;
+    /* background: #2C2738 ; */
+    background: white ;
     height: 100%;
-    clip-path: polygon(0 0, 60% 0%, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%);
     z-index: 1;
 }
 
@@ -60,7 +62,7 @@ html,body{
 }
 
 #bg-overlay{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 0;
     left: 0;
@@ -92,18 +94,27 @@ html,body{
     font-family: 'Montserrat';
     margin-top: 1em;
     margin-bottom: 1em;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
     font-size: 3.2vw;
 }
 
 #new-intro-subheading{
     font-family: 'Work Sans';
-    color: white;
+    color: black;
     line-height: 1.7em;
-    text-align: center;
+    text-align: left;
     font-size: 1vw;
     font-weight: 600;
+}
+
+#new-heading{
+    font-size: 3.5vw;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Work Sans';
+    font-weight: bolder;
+
 }
 
 .intro-heading{

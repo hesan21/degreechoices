@@ -677,6 +677,10 @@
         top: 1vh;
         font-weight: 500;
     }
+
+    #bg-overlay{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
     #text-overlay{
         top: 60%;
         padding: 1rem;
@@ -690,16 +694,17 @@
         width: 100%;
     }
     #new-intro{
-        height: 80vh;
+        height: 40vh;
     }
 
     #text-overlay{
-        top: 40%;
+        top: 50%;
     }
 
     #logo-img{
-        width: 50%;
+        width: 65%;
     }
+
     #new-intro-heading{
         font-size: 3vw;
     }
@@ -729,6 +734,25 @@
 
     #top5-bg-img{
         height: 35vh;
+    }
+
+    #img-bottom-text{
+        font-family: 'Work Sans';
+        line-height: 1.8em;
+    }
+
+    #my-text-heading{
+        font-size: 5vw;
+        font-weight: bolder;
+    }
+    
+    #my-text-subheading{
+        line-height: 1.8em;
+        font-size: 3vw;
+    }
+
+    #new-heading{
+        font-size: 5vw;
     }
 
     /* Methodology Section Styling */
@@ -833,16 +857,38 @@
     .myTableContainer{
         max-width: 500px;
         overflow: scroll;
-
     }
+
 
     #methodology-table-container .icons-container{
         height: auto;
     }
 
     .myDataTable{
-        /* width: 1000px; */
-        font-size: 2vw;
+        width: 800px;
+        font-size: 2.5vw;
+        position: relative;
+    }
+
+    .scrollable-icon{
+        position: absolute;
+        top: 15%;
+        height: 100px;
+        width: 170px;
+        border-radius: 10px;
+        left: 12%;
+        padding: 60px 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scrollable-text{
+        color: white;
+        font-size: 4vw;
+        text-align: center;
     }
 
     .th-inner{
@@ -1149,24 +1195,45 @@
         font-weight: 500;
     }
 
-    #new-intro{
-        height: 40vh;
+    .left-intro {
+        width: 0%;
+    }
+
+    .right-intro {
+        width: 100%;
     }
 
     #text-overlay{
         top: 60%;
+        padding: 1rem;
+        left: 50%;
+        width: 100%;
+    }
+    .left-intro {
+        width: 0%;
+    }
+    .right-intro {
+        width: 100%;
+    }
+    
+    #new-intro{
+        height: 80vh;
+    }
+
+    #text-overlay{
+        top: 50%;
     }
 
     #logo-img{
         width: 50%;
     }
     #new-intro-heading{
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     
     #new-intro-subheading{
-        line-height: 1.2;
-        font-size: 3vw;
+        line-height: 1.1;
+        font-size: 3.5vw;
     }
  
     #intro-bg-img{
